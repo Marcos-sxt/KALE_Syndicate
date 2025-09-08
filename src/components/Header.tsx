@@ -1,8 +1,28 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Sprout, Home, Zap, Users, Trophy, User, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+
+// Mock Connect Wallet Button (must be outside Header to use hooks)
+function MockConnectWallet() {
+  const [connected, setConnected] = React.useState(false);
+  return (
+    <div>
+      {!connected ? (
+        <Button
+          variant="outline"
+          className="px-4 py-2 text-sm font-bold"
+          onClick={() => setConnected(true)}
+        >
+          Connect Wallet
+        </Button>
+      ) : (
+        <span className="text-green-400 font-mono px-4">Wallet: GABC...XYZ</span>
+      )}
+    </div>
+  );
+}
 
 const navigation = [
   { name: "Home", href: "/", icon: Home },
@@ -35,11 +55,10 @@ export default function Header() {
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center space-x-1 ml-8">
+        <nav className="hidden md:flex items-center space-x-1 ml-8 flex-1">
           {navigation.map((item) => {
             const isActive = location.pathname === item.href;
             const Icon = item.icon;
-            
             return (
               <Link
                 key={item.name}
@@ -60,6 +79,7 @@ export default function Header() {
 
         {/* Right side */}
         <div className="flex items-center space-x-4 ml-auto">
+          <MockConnectWallet />
           {/* Profile Avatar - Desktop */}
           <div className="hidden md:block">
             <Link to="/profile">
@@ -70,7 +90,6 @@ export default function Header() {
               </Button>
             </Link>
           </div>
-
           {/* Mobile menu button */}
           <Button
             variant="ghost"
@@ -80,37 +99,9 @@ export default function Header() {
           >
             {mobileMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
           </Button>
+
         </div>
       </div>
-
-      {/* Mobile Navigation */}
-      {mobileMenuOpen && (
-        <div className="md:hidden border-t border-border/40 bg-background/95 backdrop-blur">
-          <div className="container py-4 space-y-2">
-            {navigation.map((item) => {
-              const isActive = location.pathname === item.href;
-              const Icon = item.icon;
-              
-              return (
-                <Link
-                  key={item.name}
-                  to={item.href}
-                  onClick={() => setMobileMenuOpen(false)}
-                  className={cn(
-                    "flex items-center space-x-3 px-4 py-3 rounded-lg text-sm font-medium transition-all duration-200",
-                    isActive
-                      ? "bg-primary/10 text-primary border border-primary/20"
-                      : "text-muted-foreground hover:text-foreground hover:bg-muted/50"
-                  )}
-                >
-                  <Icon className="h-5 w-5" />
-                  <span>{item.name}</span>
-                </Link>
-              );
-            })}
-          </div>
-        </div>
-      )}
     </header>
   );
 }
