@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* KALE Syndicate Design System - Pixel art tech farming aesthetic
+All colors MUST be HSL for retro farming vibes.
+*/
+
+@layer base {
+  :root {
+    /* Warm dark backgrounds */
+    --background: 25 15% 8%; /* #1a1510 - Warm dark soil */
+    --foreground: 45 25% 85%; /* #e8dcc6 - Cream text */
+
+    /* Cards with earthy tones */
+    --card: 30 20% 12%; /* #2b251a - Rich soil card */
+    --card-foreground: 45 25% 85%;
+
+    /* Popover elements */
+    --popover: 30 20% 12%;
+    --popover-foreground: 45 25% 85%;
+
+    /* Natural green primary - healthy crop color */
+    --primary: 120 60% 45%; /* #4da64d - Natural green */
+    --primary-foreground: 25 15% 8%; /* Dark text on green */
+    --primary-glow: 120 70% 55%; /* Brighter growth green */
+
+    /* Secondary - wooden/bark tones */
+    --secondary: 25 30% 18%; /* #3d2f1f - Bark brown */
+    --secondary-foreground: 45 25% 85%;
+
+    /* Muted earth tones */
+    --muted: 30 25% 15%; /* #332519 - Rich earth */
+    --muted-foreground: 40 20% 65%;
+
+    /* Accent - golden harvest */
+    --accent: 45 85% 55%; /* #e6b84d - Golden wheat */
+    --accent-foreground: 25 15% 8%;
+
+    /* Destructive - warning red */
+    --destructive: 5 75% 55%;
+    --destructive-foreground: 45 25% 95%;
+
+    /* Borders and inputs - natural tones */
+    --border: 35 25% 25%;
+    --input: 30 25% 18%;
+    --ring: 120 60% 45%; /* Natural green focus */
+
+    /* Custom tokens for pixel farming aesthetic */
+    --farming-grid: 35 30% 15%; /* Darker farm grid */
+    --pixel-shadow: 120 60% 45% / 0.4; /* Soft crop shadow */
+    --pixel-green: 115 55% 40%; /* Darker crop green */
+    --soil-brown: 25 35% 20%; /* Rich soil */
+    --wood-brown: 20 40% 25%; /* Tool handles */
+    --golden-harvest: 50 80% 60%; /* Harvest gold */
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(120 60% 45%), hsl(120 70% 55%));
+    --gradient-card: linear-gradient(145deg, hsl(30 20% 12%), hsl(35 25% 15%));
+    --gradient-farming: radial-gradient(circle at 50% 50%, hsl(120 60% 45% / 0.15), transparent 70%);
+    --gradient-soil: linear-gradient(180deg, hsl(25 30% 18%), hsl(30 25% 15%));
+    --gradient-harvest: linear-gradient(135deg, hsl(45 85% 55%), hsl(50 80% 60%));
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  /* Pixel farming design utilities */
+  .farming-grid {
+    background-image: 
+      linear-gradient(hsl(var(--farming-grid)) 2px, transparent 2px),
+      linear-gradient(90deg, hsl(var(--farming-grid)) 2px, transparent 2px);
+    background-size: 16px 16px;
+    image-rendering: pixelated;
+  }
+
+  .pixel-border {
+    border-image: linear-gradient(45deg, 
+      hsl(var(--soil-brown)), 
+      hsl(var(--wood-brown)),
+      hsl(var(--soil-brown))
+    ) 1;
+  }
+
+  .crop-glow {
+    box-shadow: 0 0 12px hsl(var(--pixel-shadow)), 0 0 24px hsl(var(--pixel-shadow));
+  }
+
+  .harvest-bounce {
+    animation: harvest-bounce 1.5s ease-in-out infinite;
+  }
+
+  @keyframes harvest-bounce {
+    0%, 100% { 
+      transform: translateY(0px) scale(1);
+      box-shadow: 0 2px 8px hsl(var(--primary) / 0.2);
+    }
+    50% { 
+      transform: translateY(-4px) scale(1.05);
+      box-shadow: 0 8px 16px hsl(var(--primary) / 0.4);
+    }
+  }
+
+  .pixel-art {
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
