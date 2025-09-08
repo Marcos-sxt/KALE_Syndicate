@@ -101,4 +101,3 @@ CCB27OLJ67J3SJYABX26N4IIOMWCKVJVY6YCFOE4WENC4JFW7OUN2JYN
 - syndicatemanager: https://stellar.expert/explorer/testnet/contract/CBECA45FZMLWDU3AKYWM64XX6AWG67KQXHDE7Z6OH2EU4ZACBEVHE5JZ
 - badgenft: https://stellar.expert/explorer/testnet/contract/CCQ2KFJHY7LXRMVTQZGZC7VO52DESMRLPN22ANBMKUJNSILH7MKTOCC7
 - oracleadapter: https://stellar.expert/explorer/testnet/contract/CCB27OLJ67J3SJYABX26N4IIOMWCKVJVY6YCFOE4WENC4JFW7OUN2JYN
-Esse relatório foi gerado por uma AI (GitHub Copilot) após diversas tentativas de correção automática e manual, sem sucesso. O problema parece estar no ecossistema de dependências do Soroban SDK e sua compatibilidade com Rust estável.
