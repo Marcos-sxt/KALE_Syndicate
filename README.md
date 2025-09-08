@@ -1,4 +1,4 @@
-# KALE Syndicate
+![KALE Syndicate Logo](public/KALE_syndicate_logo.png)
 
 > **A social, gamified, and memetic layer on top of KALE farming on Stellar.**
 >
