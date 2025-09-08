@@ -1,0 +1,1 @@
+/home/user/Documents/KALE_Syndicate/target/debug/cli-demo: /home/user/Documents/KALE_Syndicate/badgenft/src/lib.rs /home/user/Documents/KALE_Syndicate/cli-demo/src/main.rs /home/user/Documents/KALE_Syndicate/oracleadapter/src/lib.rs /home/user/Documents/KALE_Syndicate/syndicatemanager/src/lib.rs

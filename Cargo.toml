@@ -1,0 +1,12 @@
+
+
+
+[workspace]
+members = [
+    "syndicatemanager",
+    "oracleadapter",
+    "badgenft",
+    "cli-demo",
+    "tests"
+]
+resolver = "2"

@@ -1,0 +1,1013 @@
+GDJH…SL33 invoked contract CDSW…ITAO work(CDWI…UJRH, AAAAHtyCY+jFwLASvB9CcIUU6z8ZkwT2woELm0mMYsA=bytes, 14857955u64) → 7u32
+ Invoked contract CDSW…ITAO work(CDWI…UJRH, AAAAHtyCY+jFwLASvB9CcIUU6z8ZkwT2woELm0mMYsA=bytes, 14857955u64) → 7u32
+ Contract CDSW…ITAO updated instance data <LedgerKeyContractInstance> = 0e1d46b1bcb4c9ca2957f228514ca6aa468e500bf7aaa0268029bc0913ac0254wasm
+ Contract CDSW…ITAO updated instance data ["FarmBlock"sym] = {"entropy"sym: AAAAHtyCY+jFwLASvB9CcIUU6z8ZkwT2woELm0mMYsA=bytes, "max_gap"sym: 7u32, "max_stake"sym: 0i128, "max_zeros"sym: 6u32, "min_gap"sym: 7u32, "min_stake"sym: 0i128, "min_zeros"sym: 6u32, "normalized_total"sym: 0i128, "staked_total"sym: 0i128, "timestamp"sym: 1756331303u64}
+ Contract CDSW…ITAO updated temporary data ["Pail"sym, CDWI…UJRH, 15u32] = {"gap"sym: 7u32, "sequence"sym: 227528u32, "stake"sym: 0i128, "zeros"sym: 6u32}
+ Contract CDSW…ITAO updated temporary data ["Block"sym, 15u32] = {"entropy"sym: AAAABfziDSdynoqG69c7MwWk622aHtDvk1VxV3E9Fi8=bytes, "max_gap"sym: 45u32, "max_stake"sym: 0i128, "max_zeros"sym: 7u32, "min_gap"sym: 7u32, "min_stake"sym: 0i128, "min_zeros"sym: 6u32, "normalized_total"sym: 3i128, "staked_total"sym: 0i128, "timestamp"sym: 1756331303u64}
+Entries read: 4
+Entries write: 3
+Ledger read: 0B
+Ledger write: 1,404B
+Key read: 0B
+Key write: 0B
+Data read: 0B
+Data write: 1,404B
+Code read: 0B
+Code write: 0B
+Instructions: 1,331,799
+Memory usage: 1,595,084B
+Invoke time: 250µs
+Fees: 82 refundable, 54,605 non-refundable, 3 rent
+	2025-08-27 21:48:58 UTC
+GDJH…SL33 invoked contract CDSW…ITAO harvest(CDWI…UJRH, 14u32) → 4848387096i128
+ Invoked contract CDSW…ITAO harvest(CDWI…UJRH, 14u32) → 4848387096i128
+ Invoked contract CAAV…VHZZ KALEGCHP…R2AB mint(CDWI…UJRH, 4848387096i128)
+ 484.8387096 KALEGCHP…R2AB minted
+ 484.8387096 KALEGCHP…R2AB credited to contract CDWI…UJRH
+ Contract CAAV…VHZZ raised event ["mint"sym, CDWI…UJRH, "KALE:GCHPTWXMT3HYF4RLZHWBNRF4MPXLTJ76ISHMSYIWCCDXWUYOQG5MR2AB"str] with data 4848387096i128
+ Contract CDSW…ITAO removed temporary data ["Pail"sym, CDWI…UJRH, 14u32]
+ Contract CAAV…VHZZ updated persistent data ["Balance"sym, CDWI…UJRH] = {"amount"sym: 42423387096i128, "authorized"sym: truebool, "clawback"sym: falsebool}
+ Time-to-live extended to ledger 227909 for CDSW…ITAO contract state entry 8c0f0e…d08b8a
+Entries read: 6
+Entries write: 1
+Ledger read: 0B
+Ledger write: 224B
+Key read: 0B
+Key write: 0B
+Data read: 0B
+Data write: 224B
+Code read: 0B
+Code write: 0B
+Emitted events: 1 (216B)
+Instructions: 1,326,908
+Memory usage: 1,586,485B
+Invoke time: 369µs
+Fees: 2,110 refundable, 42,714 non-refundable, 0 rent
+	2025-08-27 21:48:33 UTC
+GDJH…SL33 invoked contract CDSW…ITAO plant(CDWI…UJRH, 0i128)
+ Invoked contract CDSW…ITAO plant(CDWI…UJRH, 0i128)
+ Invoked contract CDWI…UJRH __check_auth(IKzzAoKWoEe+nd3fi0iHud+UoVlAaYuMKN8LQGo1+gQ=bytes, [{["Secp256r1"sym, /isfq4mVEKKSrPxqvxYoWg==bytes]: ["Secp256r1"sym, {"authenticator_data"sym: K8/zFz1fHDwb0Sd53A1rF8OHReGdS3SFZOrz9kuYY60ZAAAAAA==bytes, "client_data_json"sym: eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmd…WxlZmFybS54eXoiLCJjcm9zc09yaWdpbiI6ZmFsc2V9bytes, "signature"sym: mzIqFLQOf/X+93PGjp59wU17Mi75LAnDf2iHCcnTJRJ…M6+q9G+4puSHyuOH/mfIW6paShV1dSC/JoKzdbdhQ==bytes}]}], [["Contract"sym, {"args"sym: [CDWI…UJRH, 0i128], "contract"sym: CDSW…ITAO, "fn_name"sym: "plant"sym}]])
+ Contract CDSW…ITAO updated instance data <LedgerKeyContractInstance> = 0e1d46b1bcb4c9ca2957f228514ca6aa468e500bf7aaa0268029bc0913ac0254wasm
+ Contract CDSW…ITAO updated instance data ["FarmBlock"sym] = {"entropy"sym: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=bytes, "max_gap"sym: 0u32, "max_stake"sym: 0i128, "max_zeros"sym: 0u32, "min_gap"sym: 4294967295u32, "min_stake"sym: 0i128, "min_zeros"sym: 4294967295u32, "normalized_total"sym: 0i128, "staked_total"sym: 0i128, "timestamp"sym: 1756331303u64}
+ Contract CDSW…ITAO updated instance data ["FarmIndex"sym] = 15u32
+ Contract CDWI…UJRH created temporary data 6340678712817006251nonce = ()
+ Contract CDSW…ITAO created temporary data ["Pail"sym, CDWI…UJRH, 15u32] = {"gap"sym: (), "sequence"sym: 227528u32, "stake"sym: 0i128, "zeros"sym: ()}
+ Contract CDSW…ITAO created temporary data ["Block"sym, 15u32] = {"entropy"sym: AAAABfziDSdynoqG69c7MwWk622aHtDvk1VxV3E9Fi8=bytes, "max_gap"sym: 45u32, "max_stake"sym: 0i128, "max_zeros"sym: 7u32, "min_gap"sym: 7u32, "min_stake"sym: 0i128, "min_zeros"sym: 6u32, "normalized_total"sym: 0i128, "staked_total"sym: 0i128, "timestamp"sym: 1756331303u64}
+ Time-to-live extended to ledger 228247 for CDSW…ITAO contract state entry 8c6089…1ae02c
+ Time-to-live extended to ledger 228247 for CDSW…ITAO contract state entry 177a0e…aa6ab7
+ Time-to-live extended to ledger 228247 for CDWI…UJRH contract state entry 56fe9b…825493
+Entries read: 9
+Entries write: 4
+Ledger read: 0B
+Ledger write: 1,468B
+Key read: 0B
+Key write: 0B
+Data read: 0B
+Data write: 1,468B
+Code read: 0B
+Code write: 0B
+Instructions: 6,037,422
+Memory usage: 3,159,245B
+Invoke time: 591µs
+Fees: 30,757 refundable, 94,090 non-refundable, 30,717 rent
+	2025-08-27 21:48:23 UTC
+GDJH…SL33 invoked contract CDSW…ITAO work(CBCM…6KE2, AAAABfziDSdynoqG69c7MwWk622aHtDvk1VxV3E9Fi8=bytes, 111425594u64) → 45u32
+ Invoked contract CDSW…ITAO work(CBCM…6KE2, AAAABfziDSdynoqG69c7MwWk622aHtDvk1VxV3E9Fi8=bytes, 111425594u64) → 45u32
+ Contract CDSW…ITAO updated instance data <LedgerKeyContractInstance> = 0e1d46b1bcb4c9ca2957f228514ca6aa468e500bf7aaa0268029bc0913ac0254wasm
+ Contract CDSW…ITAO updated instance data ["FarmBlock"sym] = {"entropy"sym: AAAABfziDSdynoqG69c7MwWk622aHtDvk1VxV3E9Fi8=bytes, "max_gap"sym: 45u32, "max_stake"sym: 0i128, "max_zeros"sym: 7u32, "min_gap"sym: 7u32, "min_stake"sym: 0i128, "min_zeros"sym: 6u32, "normalized_total"sym: 0i128, "staked_total"sym: 0i128, "timestamp"sym: 1756329536u64}
+ Contract CDSW…ITAO updated temporary data ["Pail"sym, CBCM…6KE2, 14u32] = {"gap"sym: 45u32, "sequence"sym: 227191u32, "stake"sym: 0i128, "zeros"sym: 7u32}
+ Contract CDSW…ITAO updated temporary data ["Block"sym, 14u32] = {"entropy"sym: AAAAfSs+RgXLhKF4Y3ZH5rg/5+yEPViHWKASuo2QXno=bytes, "max_gap"sym: 26u32, "max_stake"sym: 0i128, "max_zeros"sym: 6u32, "min_gap"sym: 3u32, "min_stake"sym: 0i128, "min_zeros"sym: 6u32, "normalized_total"sym: 31i128, "staked_total"sym: 0i128, "timestamp"sym: 1756329536u64}
+Entries read: 4
+Entries write: 3
+Ledger read: 0B
+Ledger write: 1,404B
+Key read: 0B
+Key write: 0B
+Data read: 0B
+Data write: 1,404B
+Code read: 0B
+Code write: 0B
+Instructions: 1,332,691
+Memory usage: 1,595,084B
+Invoke time: 313µs
+Fees: 82 refundable, 54,607 non-refundable, 3 rent
+	2025-08-27 21:24:01 UTC
+GDJH…SL33 invoked contract CDSW…ITAO work(CDWI…UJRH, AAAAEiLZdKxkEyqRphCtzraXtCz5mUVKiCGm2L01rX0=bytes, 139998401u64) → 7u32
+ Invoked contract CDSW…ITAO work(CDWI…UJRH, AAAAEiLZdKxkEyqRphCtzraXtCz5mUVKiCGm2L01rX0=bytes, 139998401u64) → 7u32
+ Contract CDSW…ITAO updated instance data <LedgerKeyContractInstance> = 0e1d46b1bcb4c9ca2957f228514ca6aa468e500bf7aaa0268029bc0913ac0254wasm
+ Contract CDSW…ITAO updated instance data ["FarmBlock"sym] = {"entropy"sym: AAAAEiLZdKxkEyqRphCtzraXtCz5mUVKiCGm2L01rX0=bytes, "max_gap"sym: 7u32, "max_stake"sym: 0i128, "max_zeros"sym: 6u32, "min_gap"sym: 7u32, "min_stake"sym: 0i128, "min_zeros"sym: 6u32, "normalized_total"sym: 0i128, "staked_total"sym: 0i128, "timestamp"sym: 1756329536u64}
+ Contract CDSW…ITAO updated temporary data ["Pail"sym, CDWI…UJRH, 14u32] = {"gap"sym: 7u32, "sequence"sym: 227190u32, "stake"sym: 0i128, "zeros"sym: 6u32}
+ Contract CDSW…ITAO updated temporary data ["Block"sym, 14u32] = {"entropy"sym: AAAAfSs+RgXLhKF4Y3ZH5rg/5+yEPViHWKASuo2QXno=bytes, "max_gap"sym: 26u32, "max_stake"sym: 0i128, "max_zeros"sym: 6u32, "min_gap"sym: 3u32, "min_stake"sym: 0i128, "min_zeros"sym: 6u32, "normalized_total"sym: 6i128, "staked_total"sym: 0i128, "timestamp"sym: 1756329536u64}
+Entries read: 4
+Entries write: 3
+Ledger read: 0B
+Ledger write: 1,404B
+Key read: 0B
+Key write: 0B
+Data read: 0B
+Data write: 1,404B
+Code read: 0B
+Code write: 0B
+Instructions: 1,332,691
+Memory usage: 1,595,084B
+Invoke time: 199µs
+Fees: 82 refundable, 54,607 non-refundable, 3 rent
+	2025-08-27 21:20:46 UTC
+GDJH…SL33 invoked contract CDSW…ITAO plant(CBCM…6KE2, 0i128)
+ Invoked contract CDSW…ITAO plant(CBCM…6KE2, 0i128)
+ Invoked contract CBCM…6KE2 __check_auth(yQxjUSC7AdgxM44FfZciXpW6cQuHfuw6zbf1x1Jp6vk=bytes, [{["Ed25519"sym, oTjSNZP7SWCG1xA9VPEFedlY9rAJyMK++sam4dXhtZc=bytes]: ["Ed25519"sym, MnYDzJy9GHNh4sp0Cuyh92o/YxPj5YBvJ3OJgtp+yMG…BkHVUaRkda0shTgBzVtFDSwOUSi/RXE5VtPY3fVAQ==bytes]}], [["Contract"sym, {"args"sym: [CBCM…6KE2, 0i128], "contract"sym: CDSW…ITAO, "fn_name"sym: "plant"sym}]])
+ Contract CDSW…ITAO created temporary data ["Pail"sym, CBCM…6KE2, 14u32] = {"gap"sym: (), "sequence"sym: 227191u32, "stake"sym: 0i128, "zeros"sym: ()}
+ Contract CBCM…6KE2 created temporary data 4315507428821702898nonce = ()
+ Time-to-live extended to ledger 227910 for CBCM…6KE2 contract state entry ee5a8b…8fe809
+ Time-to-live extended to ledger 227910 for CDSW…ITAO contract state entry ecb30b…b68428
+Entries read: 8
+Entries write: 4
+Ledger read: 0B
+Ledger write: 1,468B
+Key read: 0B
+Key write: 0B
+Data read: 0B
+Data write: 1,468B
+Code read: 0B
+Code write: 0B
+Instructions: 3,096,369
+Memory usage: 3,178,841B
+Invoke time: 461µs
+Fees: 20,459 refundable, 80,077 non-refundable, 20,419 rent
+	2025-08-27 21:20:16 UTC
+GDJH…SL33 invoked contract CDSW…ITAO plant(CDWI…UJRH, 0i128)
+ Invoked contract CDSW…ITAO plant(CDWI…UJRH, 0i128)
+ Invoked contract CDWI…UJRH __check_auth(8jrAdKW9sVe3okWVcb7bavfmE8aMoQTpf2qFjBMRYsw=bytes, [{["Ed25519"sym, TDSe64yKn2oC4XzjQqnLVMggu7P/+6m3tboEReTOUAQ=bytes]: ["Ed25519"sym, z/b8hAOIP0+V7LiS5Nu5SHBrVy8mZTOztEXp7Dq8QlI…pUprE2/oPHE3aRHAnler0d3mi2GOxnuc7uFTir9DQ==bytes]}], [["Contract"sym, {"args"sym: [CDWI…UJRH, 0i128], "contract"sym: CDSW…ITAO, "fn_name"sym: "plant"sym}]])
+ Contract CDWI…UJRH created temporary data 4716739786930514337nonce = ()
+ Contract CDSW…ITAO created temporary data ["Pail"sym, CDWI…UJRH, 14u32] = {"gap"sym: (), "sequence"sym: 227190u32, "stake"sym: 0i128, "zeros"sym: ()}
+ Time-to-live extended to ledger 227909 for CDSW…ITAO contract state entry 8c0f0e…d08b8a
+ Time-to-live extended to ledger 227909 for CDWI…UJRH contract state entry eb6664…167f0a
+Entries read: 8
+Entries write: 4
+Ledger read: 0B
+Ledger write: 1,468B
+Key read: 0B
+Key write: 0B
+Data read: 0B
+Data write: 1,468B
+Code read: 0B
+Code write: 0B
+Instructions: 3,096,549
+Memory usage: 3,178,841B
+Invoke time: 318µs
+Fees: 20,459 refundable, 80,076 non-refundable, 20,419 rent
+	2025-08-27 21:20:11 UTC
+GDJH…SL33 invoked contract CDSW…ITAO harvest(CDWI…UJRH, 13u32) → 12525000000i128
+ Invoked contract CDSW…ITAO harvest(CDWI…UJRH, 13u32) → 12525000000i128
+ Invoked contract CAAV…VHZZ KALEGCHP…R2AB mint(CDWI…UJRH, 12525000000i128)
+ 1,252.5 KALEGCHP…R2AB minted
+ 1,252.5 KALEGCHP…R2AB credited to contract CDWI…UJRH
+ Contract CAAV…VHZZ raised event ["mint"sym, CDWI…UJRH, "KALE:GCHPTWXMT3HYF4RLZHWBNRF4MPXLTJ76ISHMSYIWCCDXWUYOQG5MR2AB"str] with data 12525000000i128
+ Contract CDSW…ITAO removed temporary data ["Pail"sym, CDWI…UJRH, 13u32]
+ Contract CAAV…VHZZ updated persistent data ["Balance"sym, CDWI…UJRH] = {"amount"sym: 37575000000i128, "authorized"sym: truebool, "clawback"sym: falsebool}
+ Time-to-live extended to ledger 227779 for CDSW…ITAO contract state entry ee78de…9ce8a5
+Entries read: 6
+Entries write: 1
+Ledger read: 0B
+Ledger write: 224B
+Key read: 0B
+Key write: 0B
+Data read: 0B
+Data write: 224B
+Code read: 0B
+Code write: 0B
+Emitted events: 1 (216B)
+Instructions: 1,326,016
+Memory usage: 1,586,485B
+Invoke time: 368µs
+Fees: 2,110 refundable, 42,712 non-refundable, 0 rent
+	2025-08-27 21:20:01 UTC
+GDJH…SL33 invoked contract CDSW…ITAO plant(CBHG…APZE, 0i128)
+ Invoked contract CDSW…ITAO plant(CBHG…APZE, 0i128)
+ Invoked contract CBHG…APZE __check_auth(Dtg/uY+uKnhj7ffr6RYpZvUkiRXIruVoW3oMV1jvQa8=bytes, [{["Secp256r1"sym, a8BO+qy3+9SQSxAq/LnbQQ==bytes]: ["Secp256r1"sym, {"authenticator_data"sym: K8/zFz1fHDwb0Sd53A1rF8OHReGdS3SFZOrz9kuYY60dAAAAAA==bytes, "client_data_json"sym: eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmd…GUuIFNlZSBodHRwczovL2dvby5nbC95YWJQZXgifQ==bytes, "signature"sym: CaioPav6sWazWafiA1cTOjEbwZcHQH01EhEbGQSgw7h…ngalpQQL8A2JXGXKMVysBWmLEOiyTG8/6X9953FCg==bytes}]}], [["Contract"sym, {"args"sym: [CBHG…APZE, 0i128], "contract"sym: CDSW…ITAO, "fn_name"sym: "plant"sym}]])
+ Contract CDSW…ITAO updated instance data <LedgerKeyContractInstance> = 0e1d46b1bcb4c9ca2957f228514ca6aa468e500bf7aaa0268029bc0913ac0254wasm
+ Contract CDSW…ITAO updated instance data ["FarmBlock"sym] = {"entropy"sym: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=bytes, "max_gap"sym: 0u32, "max_stake"sym: 0i128, "max_zeros"sym: 0u32, "min_gap"sym: 4294967295u32, "min_stake"sym: 0i128, "min_zeros"sym: 4294967295u32, "normalized_total"sym: 0i128, "staked_total"sym: 0i128, "timestamp"sym: 1756329536u64}
+ Contract CDSW…ITAO updated instance data ["FarmIndex"sym] = 14u32
+ Contract CDSW…ITAO created temporary data ["Pail"sym, CBHG…APZE, 14u32] = {"gap"sym: (), "sequence"sym: 227175u32, "stake"sym: 0i128, "zeros"sym: ()}
+ Contract CDSW…ITAO created temporary data ["Block"sym, 14u32] = {"entropy"sym: AAAAfSs+RgXLhKF4Y3ZH5rg/5+yEPViHWKASuo2QXno=bytes, "max_gap"sym: 26u32, "max_stake"sym: 0i128, "max_zeros"sym: 6u32, "min_gap"sym: 3u32, "min_stake"sym: 0i128, "min_zeros"sym: 6u32, "normalized_total"sym: 0i128, "staked_total"sym: 0i128, "timestamp"sym: 1756329536u64}
+ Contract CBHG…APZE created temporary data 5961384977972139128nonce = ()
+ Time-to-live extended to ledger 3337574 for 72ffb0…eed214
+ Time-to-live extended to ledger 227894 for CDSW…ITAO contract state entry 2da833…aa0a85
+ Time-to-live extended to ledger 3337574 for 0b56b3…38cb72
+ Time-to-live extended to ledger 227894 for CBHG…APZE contract state entry eb0220…94e65c
+ Time-to-live extended to ledger 227894 for CDSW…ITAO contract state entry eeb5d1…c2aa78
+Entries read: 9
+Entries write: 4
+Ledger read: 0B
+Ledger write: 1,468B
+Key read: 0B
+Key write: 0B
+Data read: 0B
+Data write: 1,468B
+Code read: 0B
+Code write: 0B
+Instructions: 6,242,177
+Memory usage: 3,160,934B
+Invoke time: 959µs
+Fees: 93,552 refundable, 96,490 non-refundable, 93,512 rent
+	2025-08-27 21:18:56 UTC
+GDJH…SL33 invoked contract CDWI…UJRH add_signer(["Ed25519"sym, TDSe64yKn2oC4XzjQqnLVMggu7P/+6m3tboEReTOUAQ=bytes, [()], [{CAAV…VHZZ: (), CDSW…ITAO: ()}], ["Temporary"sym]])
+ Invoked contract CDWI…UJRH add_signer("Ed25519"sym, TDSe64yKn2oC4XzjQqnLVMggu7P/+6m3tboEReTOUAQ=bytes, [()], [{CAAV…VHZZ: (), CDSW…ITAO: ()}], ["Temporary"sym])
+ Invoked contract CDWI…UJRH __check_auth(kCrMnuoZyPQD1ygdtic96EMmSCVTsHn0XxFo/6y1YXQ=bytes, [{["Secp256r1"sym, /isfq4mVEKKSrPxqvxYoWg==bytes]: ["Secp256r1"sym, {"authenticator_data"sym: K8/zFz1fHDwb0Sd53A1rF8OHReGdS3SFZOrz9kuYY60ZAAAAAA==bytes, "client_data_json"sym: eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmd…WxlZmFybS54eXoiLCJjcm9zc09yaWdpbiI6ZmFsc2V9bytes, "signature"sym: KvwUD+Exq8nB0r+7EDqWBStGo0laNUt0PikJlBCYD79…ThmMyGphwcgTSGEcbKE/BuvCxqdSbfeVewPFYisZw==bytes}]}], [["Contract"sym, {"args"sym: [["Ed25519"sym, TDSe64yKn2oC4XzjQqnLVMggu7P/+6m3tboEReTOUAQ=bytes, [()], [{CAAV…VHZZ: (), CDSW…ITAO: ()}], ["Temporary"sym]]], "contract"sym: CDWI…UJRH, "fn_name"sym: "add_signer"sym}]])
+ Contract CDWI…UJRH raised event ["sw_v1"sym, "add"sym, ["Ed25519"sym, TDSe64yKn2oC4XzjQqnLVMggu7P/+6m3tboEReTOUAQ=bytes]] with data [["Ed25519"sym, [()], [{CAAV…VHZZ: (), CDSW…ITAO: ()}]], ["Temporary"sym]]
+ Contract CDWI…UJRH created temporary data 8398610941245049780nonce = ()
+ Contract CDWI…UJRH created temporary data ["Ed25519"sym, TDSe64yKn2oC4XzjQqnLVMggu7P/+6m3tboEReTOUAQ=bytes] = ["Ed25519"sym, [()], [{CAAV…VHZZ: (), CDSW…ITAO: ()}]]
+ Time-to-live extended to ledger 3337560 for CDWI…UJRH contract state entry 738e7e…3dd3b2
+ Time-to-live extended to ledger 227880 for CDWI…UJRH contract state entry 922283…1629b4
+Entries read: 7
+Entries write: 2
+Ledger read: 0B
+Ledger write: 352B
+Key read: 0B
+Key write: 0B
+Data read: 0B
+Data write: 352B
+Code read: 0B
+Code write: 0B
+Emitted events: 1 (352B)
+Instructions: 5,442,429
+Memory usage: 3,066,649B
+Invoke time: 582µs
+Fees: 373,788 refundable, 73,514 non-refundable, 370,350 rent
+	2025-08-27 21:17:46 UTC
+GDJH…SL33 invoked contract CDSW…ITAO work(CBCM…6KE2, AAAAfSs+RgXLhKF4Y3ZH5rg/5+yEPViHWKASuo2QXno=bytes, 51944690u64) → 3u32
+ Invoked contract CDSW…ITAO work(CBCM…6KE2, AAAAfSs+RgXLhKF4Y3ZH5rg/5+yEPViHWKASuo2QXno=bytes, 51944690u64) → 3u32
+ Contract CDSW…ITAO updated instance data <LedgerKeyContractInstance> = 0e1d46b1bcb4c9ca2957f228514ca6aa468e500bf7aaa0268029bc0913ac0254wasm
+ Contract CDSW…ITAO updated instance data ["FarmBlock"sym] = {"entropy"sym: AAAAfSs+RgXLhKF4Y3ZH5rg/5+yEPViHWKASuo2QXno=bytes, "max_gap"sym: 26u32, "max_stake"sym: 0i128, "max_zeros"sym: 6u32, "min_gap"sym: 3u32, "min_stake"sym: 0i128, "min_zeros"sym: 6u32, "normalized_total"sym: 0i128, "staked_total"sym: 0i128, "timestamp"sym: 1756328961u64}
+ Contract CDSW…ITAO updated temporary data ["Pail"sym, CBCM…6KE2, 13u32] = {"gap"sym: 3u32, "sequence"sym: 227109u32, "stake"sym: 0i128, "zeros"sym: 6u32}
+ Contract CDSW…ITAO updated temporary data ["Block"sym, 13u32] = {"entropy"sym: AAAATCW7FF/vSh8/Vun4luBCJ80dA257U0DAi1OC0hk=bytes, "max_gap"sym: 51u32, "max_stake"sym: 0i128, "max_zeros"sym: 6u32, "min_gap"sym: 51u32, "min_stake"sym: 0i128, "min_zeros"sym: 6u32, "normalized_total"sym: 6i128, "staked_total"sym: 0i128, "timestamp"sym: 1756328961u64}
+Entries read: 4
+Entries write: 3
+Ledger read: 0B
+Ledger write: 1,404B
+Key read: 0B
+Key write: 0B
+Data read: 0B
+Data write: 1,404B
+Code read: 0B
+Code write: 0B
+Instructions: 1,331,799
+Memory usage: 1,595,084B
+Invoke time: 261µs
+Fees: 82 refundable, 54,605 non-refundable, 3 rent
+	2025-08-27 21:13:41 UTC
+GDJH…SL33 invoked contract CBCM…6KE2 add_signer(["Ed25519"sym, oTjSNZP7SWCG1xA9VPEFedlY9rAJyMK++sam4dXhtZc=bytes, [()], [{CAAV…VHZZ: (), CDSW…ITAO: ()}], ["Temporary"sym]])
+ Invoked contract CBCM…6KE2 add_signer("Ed25519"sym, oTjSNZP7SWCG1xA9VPEFedlY9rAJyMK++sam4dXhtZc=bytes, [()], [{CAAV…VHZZ: (), CDSW…ITAO: ()}], ["Temporary"sym])
+ Invoked contract CBCM…6KE2 __check_auth(wE6jfblAEZ07i1ZtCdmUSX1rnnbCwUylqVYbec8kd4Y=bytes, [{["Secp256r1"sym, S/rN/olV7Vmrte2tXDHUhQ==bytes]: ["Secp256r1"sym, {"authenticator_data"sym: K8/zFz1fHDwb0Sd53A1rF8OHReGdS3SFZOrz9kuYY60dAAAAAA==bytes, "client_data_json"sym: eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmd…WxlZmFybS54eXoiLCJjcm9zc09yaWdpbiI6ZmFsc2V9bytes, "signature"sym: Yr5u603/RdCU4WbxhPbqZwKPKOWZ0gx+3YS05r8m+I8…K6q6kuY4p5Fl5K7aQD7sRjEI7N0AKXpU6pmsyAayA==bytes}]}], [["Contract"sym, {"args"sym: [["Ed25519"sym, oTjSNZP7SWCG1xA9VPEFedlY9rAJyMK++sam4dXhtZc=bytes, [()], [{CAAV…VHZZ: (), CDSW…ITAO: ()}], ["Temporary"sym]]], "contract"sym: CBCM…6KE2, "fn_name"sym: "add_signer"sym}]])
+ Contract CBCM…6KE2 raised event ["sw_v1"sym, "add"sym, ["Ed25519"sym, oTjSNZP7SWCG1xA9VPEFedlY9rAJyMK++sam4dXhtZc=bytes]] with data [["Ed25519"sym, [()], [{CAAV…VHZZ: (), CDSW…ITAO: ()}]], ["Temporary"sym]]
+ Contract CBCM…6KE2 created temporary data 5845859661106485287nonce = ()
+ Contract CBCM…6KE2 created temporary data ["Ed25519"sym, oTjSNZP7SWCG1xA9VPEFedlY9rAJyMK++sam4dXhtZc=bytes] = ["Ed25519"sym, [()], [{CAAV…VHZZ: (), CDSW…ITAO: ()}]]
+ Time-to-live extended to ledger 3337506 for CBCM…6KE2 contract state entry 1091cf…eeb2f0
+ Time-to-live extended to ledger 227826 for CBCM…6KE2 contract state entry b1af00…0ab7ec
+Entries read: 7
+Entries write: 2
+Ledger read: 0B
+Ledger write: 352B
+Key read: 0B
+Key write: 0B
+Data read: 0B
+Data write: 352B
+Code read: 0B
+Code write: 0B
+Emitted events: 1 (352B)
+Instructions: 5,442,429
+Memory usage: 3,066,649B
+Invoke time: 563µs
+Fees: 373,788 refundable, 73,514 non-refundable, 370,350 rent
+	2025-08-27 21:13:16 UTC
+GDJH…SL33 invoked contract CDSW…ITAO work(CDWI…UJRH, AAAAQeZz0hNE9ug4NTpU/pW3sW08mLfXvs60VMxf/T4=bytes, 30334137u64) → 26u32
+ Invoked contract CDSW…ITAO work(CDWI…UJRH, AAAAQeZz0hNE9ug4NTpU/pW3sW08mLfXvs60VMxf/T4=bytes, 30334137u64) → 26u32
+ Contract CDSW…ITAO updated instance data <LedgerKeyContractInstance> = 0e1d46b1bcb4c9ca2957f228514ca6aa468e500bf7aaa0268029bc0913ac0254wasm
+ Contract CDSW…ITAO updated instance data ["FarmBlock"sym] = {"entropy"sym: AAAAQeZz0hNE9ug4NTpU/pW3sW08mLfXvs60VMxf/T4=bytes, "max_gap"sym: 26u32, "max_stake"sym: 0i128, "max_zeros"sym: 6u32, "min_gap"sym: 26u32, "min_stake"sym: 0i128, "min_zeros"sym: 6u32, "normalized_total"sym: 0i128, "staked_total"sym: 0i128, "timestamp"sym: 1756328961u64}
+ Contract CDSW…ITAO updated temporary data ["Pail"sym, CDWI…UJRH, 13u32] = {"gap"sym: 26u32, "sequence"sym: 227060u32, "stake"sym: 0i128, "zeros"sym: 6u32}
+ Contract CDSW…ITAO updated temporary data ["Block"sym, 13u32] = {"entropy"sym: AAAATCW7FF/vSh8/Vun4luBCJ80dA257U0DAi1OC0hk=bytes, "max_gap"sym: 51u32, "max_stake"sym: 0i128, "max_zeros"sym: 6u32, "min_gap"sym: 51u32, "min_stake"sym: 0i128, "min_zeros"sym: 6u32, "normalized_total"sym: 3i128, "staked_total"sym: 0i128, "timestamp"sym: 1756328961u64}
+Entries read: 4
+Entries write: 3
+Ledger read: 0B
+Ledger write: 1,404B
+Key read: 0B
+Key write: 0B
+Data read: 0B
+Data write: 1,404B
+Code read: 0B
+Code write: 0B
+Instructions: 1,331,799
+Memory usage: 1,595,084B
+Invoke time: 368µs
+Fees: 82 refundable, 54,605 non-refundable, 3 rent
+	2025-08-27 21:11:31 UTC
+GDJH…SL33 invoked contract CDSW…ITAO plant(CDWI…UJRH, 0i128)
+ Invoked contract CDSW…ITAO plant(CDWI…UJRH, 0i128)
+ Invoked contract CDWI…UJRH __check_auth(3hAreaG8PvGVby5N2qff53V4rcPgGr7ULZDZdlSU/xA=bytes, [{["Secp256r1"sym, /isfq4mVEKKSrPxqvxYoWg==bytes]: ["Secp256r1"sym, {"authenticator_data"sym: K8/zFz1fHDwb0Sd53A1rF8OHReGdS3SFZOrz9kuYY60ZAAAAAA==bytes, "client_data_json"sym: eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmd…GUuIFNlZSBodHRwczovL2dvby5nbC95YWJQZXgifQ==bytes, "signature"sym: s44Nj5J6ilVi8nP/Y0Zcs23VBkjxHiac5vTOv1mvvuk…NJu1J7+pZrK7FgK8jA5x0LiBMGIG6IG3XJejI5LUA==bytes}]}], [["Contract"sym, {"args"sym: [CDWI…UJRH, 0i128], "contract"sym: CDSW…ITAO, "fn_name"sym: "plant"sym}]])
+ Contract CDSW…ITAO updated instance data <LedgerKeyContractInstance> = 0e1d46b1bcb4c9ca2957f228514ca6aa468e500bf7aaa0268029bc0913ac0254wasm
+ Contract CDSW…ITAO updated instance data ["FarmBlock"sym] = {"entropy"sym: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=bytes, "max_gap"sym: 0u32, "max_stake"sym: 0i128, "max_zeros"sym: 0u32, "min_gap"sym: 4294967295u32, "min_stake"sym: 0i128, "min_zeros"sym: 4294967295u32, "normalized_total"sym: 0i128, "staked_total"sym: 0i128, "timestamp"sym: 1756328961u64}
+ Contract CDSW…ITAO updated instance data ["FarmIndex"sym] = 13u32
+ Contract CDWI…UJRH created temporary data 4124810906340759468nonce = ()
+ Contract CDSW…ITAO created temporary data ["Pail"sym, CDWI…UJRH, 13u32] = {"gap"sym: (), "sequence"sym: 227060u32, "stake"sym: 0i128, "zeros"sym: ()}
+ Contract CDSW…ITAO created temporary data ["Block"sym, 13u32] = {"entropy"sym: AAAATCW7FF/vSh8/Vun4luBCJ80dA257U0DAi1OC0hk=bytes, "max_gap"sym: 51u32, "max_stake"sym: 0i128, "max_zeros"sym: 6u32, "min_gap"sym: 51u32, "min_stake"sym: 0i128, "min_zeros"sym: 6u32, "normalized_total"sym: 0i128, "staked_total"sym: 0i128, "timestamp"sym: 1756328961u64}
+ Time-to-live extended to ledger 227779 for CDSW…ITAO contract state entry 773477…a6b514
+ Time-to-live extended to ledger 227779 for CDSW…ITAO contract state entry ee78de…9ce8a5
+ Time-to-live extended to ledger 227779 for CDWI…UJRH contract state entry 356194…c38a90
+Entries read: 9
+Entries write: 4
+Ledger read: 0B
+Ledger write: 1,468B
+Key read: 0B
+Key write: 0B
+Data read: 0B
+Data write: 1,468B
+Code read: 0B
+Code write: 0B
+Instructions: 6,238,226
+Memory usage: 3,159,678B
+Invoke time: 624µs
+Fees: 30,757 refundable, 96,496 non-refundable, 30,717 rent
+	2025-08-27 21:09:21 UTC
+GDJH…SL33 invoked contract CDSW…ITAO work(CCOV…V45H, AAAATCW7FF/vSh8/Vun4luBCJ80dA257U0DAi1OC0hk=bytes, 11537294u64) → 51u32
+ Invoked contract CDSW…ITAO work(CCOV…V45H, AAAATCW7FF/vSh8/Vun4luBCJ80dA257U0DAi1OC0hk=bytes, 11537294u64) → 51u32
+ Contract CDSW…ITAO updated instance data <LedgerKeyContractInstance> = 0e1d46b1bcb4c9ca2957f228514ca6aa468e500bf7aaa0268029bc0913ac0254wasm
+ Contract CDSW…ITAO updated instance data ["FarmBlock"sym] = {"entropy"sym: AAAATCW7FF/vSh8/Vun4luBCJ80dA257U0DAi1OC0hk=bytes, "max_gap"sym: 51u32, "max_stake"sym: 0i128, "max_zeros"sym: 6u32, "min_gap"sym: 51u32, "min_stake"sym: 0i128, "min_zeros"sym: 6u32, "normalized_total"sym: 0i128, "staked_total"sym: 0i128, "timestamp"sym: 1756316153u64}
+ Contract CDSW…ITAO updated temporary data ["Pail"sym, CCOV…V45H, 12u32] = {"gap"sym: 51u32, "sequence"sym: 224507u32, "stake"sym: 0i128, "zeros"sym: 6u32}
+ Contract CDSW…ITAO updated temporary data ["Block"sym, 12u32] = {"entropy"sym: AAAALKLwMtQyYv7QT6NgT5cqavNiBE/fL957BTMEmzg=bytes, "max_gap"sym: 13u32, "max_stake"sym: 0i128, "max_zeros"sym: 6u32, "min_gap"sym: 13u32, "min_stake"sym: 0i128, "min_zeros"sym: 6u32, "normalized_total"sym: 3i128, "staked_total"sym: 0i128, "timestamp"sym: 1756316153u64}
+Entries read: 4
+Entries write: 3
+Ledger read: 0B
+Ledger write: 1,404B
+Key read: 0B
+Key write: 0B
+Data read: 0B
+Data write: 1,404B
+Code read: 0B
+Code write: 0B
+Instructions: 1,331,799
+Memory usage: 1,595,084B
+Invoke time: 354µs
+Fees: 82 refundable, 54,605 non-refundable, 3 rent
+	2025-08-27 17:40:38 UTC
+GDJH…SL33 invoked contract CDSW…ITAO plant(CCOV…V45H, 0i128)
+ Invoked contract CDSW…ITAO plant(CCOV…V45H, 0i128)
+ Invoked contract CCOV…V45H __check_auth(s34KqoNgldCQw52rH4+6jrVo3LYrwBx//5phAPMZRHM=bytes, [{["Ed25519"sym, 62yIzrPkVB8mhM4C0wlk7hMJMqZ5FmFvn+Y2VpqiB8k=bytes]: ["Ed25519"sym, IP6qmHErhNWa7x4nwZJgVP8OnCbf+R3t4QaWAxkbFVy…XbOKlTw5Q8Fv3vW7ZD7s9XuExnIUBFWpSklFjrvAQ==bytes]}], [["Contract"sym, {"args"sym: [CCOV…V45H, 0i128], "contract"sym: CDSW…ITAO, "fn_name"sym: "plant"sym}]])
+ Contract CDSW…ITAO created temporary data ["Pail"sym, CCOV…V45H, 12u32] = {"gap"sym: (), "sequence"sym: 224507u32, "stake"sym: 0i128, "zeros"sym: ()}
+ Contract CCOV…V45H created temporary data 6881410682017529994nonce = ()
+ Time-to-live extended to ledger 225226 for CCOV…V45H contract state entry 5b5418…ac4a6d
+ Time-to-live extended to ledger 225226 for CDSW…ITAO contract state entry 2185d9…06418b
+Entries read: 8
+Entries write: 4
+Ledger read: 0B
+Ledger write: 1,468B
+Key read: 0B
+Key write: 0B
+Data read: 0B
+Data write: 1,468B
+Code read: 0B
+Code write: 0B
+Instructions: 3,096,369
+Memory usage: 3,178,841B
+Invoke time: 579µs
+Fees: 20,459 refundable, 80,077 non-refundable, 20,419 rent
+	2025-08-27 17:36:23 UTC
+GDJH…SL33 invoked contract CDSW…ITAO plant(CDWI…UJRH, 0i128)
+ Invoked contract CDSW…ITAO plant(CDWI…UJRH, 0i128)
+ Invoked contract CDWI…UJRH __check_auth(acc/6LBW8vIcctTr7XWU0Y8K4NvyxvCKPQGTfwG4mZw=bytes, [{["Secp256r1"sym, /isfq4mVEKKSrPxqvxYoWg==bytes]: ["Secp256r1"sym, {"authenticator_data"sym: K8/zFz1fHDwb0Sd53A1rF8OHReGdS3SFZOrz9kuYY60ZAAAAAA==bytes, "client_data_json"sym: eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmd…WxlZmFybS54eXoiLCJjcm9zc09yaWdpbiI6ZmFsc2V9bytes, "signature"sym: YOFggoET02LoPVuPTCiUfsriwS0E5FO/FE7gJorvai8…72sWgAJec+JK2ByUx1ok3zFkA8wP9EKeA0AAkGHww==bytes}]}], [["Contract"sym, {"args"sym: [CDWI…UJRH, 0i128], "contract"sym: CDSW…ITAO, "fn_name"sym: "plant"sym}]])
+ Contract CDSW…ITAO updated instance data <LedgerKeyContractInstance> = 0e1d46b1bcb4c9ca2957f228514ca6aa468e500bf7aaa0268029bc0913ac0254wasm
+ Contract CDSW…ITAO updated instance data ["FarmBlock"sym] = {"entropy"sym: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=bytes, "max_gap"sym: 0u32, "max_stake"sym: 0i128, "max_zeros"sym: 0u32, "min_gap"sym: 4294967295u32, "min_stake"sym: 0i128, "min_zeros"sym: 4294967295u32, "normalized_total"sym: 0i128, "staked_total"sym: 0i128, "timestamp"sym: 1756316153u64}
+ Contract CDSW…ITAO updated instance data ["FarmIndex"sym] = 12u32
+ Contract CDWI…UJRH created temporary data 8996870410179727447nonce = ()
+ Contract CDSW…ITAO created temporary data ["Pail"sym, CDWI…UJRH, 12u32] = {"gap"sym: (), "sequence"sym: 224501u32, "stake"sym: 0i128, "zeros"sym: ()}
+ Contract CDSW…ITAO created temporary data ["Block"sym, 12u32] = {"entropy"sym: AAAALKLwMtQyYv7QT6NgT5cqavNiBE/fL957BTMEmzg=bytes, "max_gap"sym: 13u32, "max_stake"sym: 0i128, "max_zeros"sym: 6u32, "min_gap"sym: 13u32, "min_stake"sym: 0i128, "min_zeros"sym: 6u32, "normalized_total"sym: 0i128, "staked_total"sym: 0i128, "timestamp"sym: 1756316153u64}
+ Time-to-live extended to ledger 225220 for CDSW…ITAO contract state entry f93d24…62d6da
+ Time-to-live extended to ledger 225220 for CDSW…ITAO contract state entry 3495b9…77a4d5
+ Time-to-live extended to ledger 225220 for CDWI…UJRH contract state entry c08440…fcd141
+Entries read: 9
+Entries write: 4
+Ledger read: 0B
+Ledger write: 1,468B
+Key read: 0B
+Key write: 0B
+Data read: 0B
+Data write: 1,468B
+Code read: 0B
+Code write: 0B
+Instructions: 6,037,422
+Memory usage: 3,159,245B
+Invoke time: 598µs
+Fees: 30,757 refundable, 94,090 non-refundable, 30,717 rent
+	2025-08-27 17:35:53 UTC
+GDJH…SL33 invoked contract CDSW…ITAO work(CCOV…V45H, AAAALKLwMtQyYv7QT6NgT5cqavNiBE/fL957BTMEmzg=bytes, 40143935u64) → 13u32
+ Invoked contract CDSW…ITAO work(CCOV…V45H, AAAALKLwMtQyYv7QT6NgT5cqavNiBE/fL957BTMEmzg=bytes, 40143935u64) → 13u32
+ Contract CDSW…ITAO updated instance data <LedgerKeyContractInstance> = 0e1d46b1bcb4c9ca2957f228514ca6aa468e500bf7aaa0268029bc0913ac0254wasm
+ Contract CDSW…ITAO updated instance data ["FarmBlock"sym] = {"entropy"sym: AAAALKLwMtQyYv7QT6NgT5cqavNiBE/fL957BTMEmzg=bytes, "max_gap"sym: 13u32, "max_stake"sym: 0i128, "max_zeros"sym: 6u32, "min_gap"sym: 13u32, "min_stake"sym: 0i128, "min_zeros"sym: 6u32, "normalized_total"sym: 0i128, "staked_total"sym: 0i128, "timestamp"sym: 1756315397u64}
+ Contract CDSW…ITAO updated temporary data ["Pail"sym, CCOV…V45H, 11u32] = {"gap"sym: 13u32, "sequence"sym: 224350u32, "stake"sym: 0i128, "zeros"sym: 6u32}
+ Contract CDSW…ITAO updated temporary data ["Block"sym, 11u32] = {"entropy"sym: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=bytes, "max_gap"sym: 0u32, "max_stake"sym: 0i128, "max_zeros"sym: 0u32, "min_gap"sym: 0u32, "min_stake"sym: 0i128, "min_zeros"sym: 0u32, "normalized_total"sym: 3i128, "staked_total"sym: 0i128, "timestamp"sym: 1756315397u64}
+Entries read: 4
+Entries write: 3
+Ledger read: 0B
+Ledger write: 1,404B
+Key read: 0B
+Key write: 0B
+Data read: 0B
+Data write: 1,404B
+Code read: 0B
+Code write: 0B
+Instructions: 1,331,799
+Memory usage: 1,595,084B
+Invoke time: 319µs
+Fees: 82 refundable, 54,605 non-refundable, 3 rent
+	2025-08-27 17:24:22 UTC
+GDJH…SL33 invoked contract CDSW…ITAO plant(CCOV…V45H, 0i128)
+ Invoked contract CDSW…ITAO plant(CCOV…V45H, 0i128)
+ Invoked contract CCOV…V45H __check_auth(fUxEnqobYDJ0YaqzyOOEWJZ2Pi7nPq3ALSOSQFCZxX8=bytes, [{["Secp256r1"sym, FJKlmzb/jncRbMmKV1D8Eftaw9mmVBeDMnmIYx+7VbM=bytes]: ["Secp256r1"sym, {"authenticator_data"sym: K8/zFz1fHDwb0Sd53A1rF8OHReGdS3SFZOrz9kuYY60FAAAAAw==bytes, "client_data_json"sym: eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmd…WxlZmFybS54eXoiLCJjcm9zc09yaWdpbiI6ZmFsc2V9bytes, "signature"sym: dLjAJaTfLdlwU7+mgvHVeKrTBaf+9oPzFtCfm/CGUuh…yI0qiLOLXKSZPBofsu72WnGvq4elQCGN2mzlP4UWg==bytes}]}], [["Contract"sym, {"args"sym: [CCOV…V45H, 0i128], "contract"sym: CDSW…ITAO, "fn_name"sym: "plant"sym}]])
+ Contract CDSW…ITAO updated instance data <LedgerKeyContractInstance> = 0e1d46b1bcb4c9ca2957f228514ca6aa468e500bf7aaa0268029bc0913ac0254wasm
+ Contract CDSW…ITAO updated instance data ["FarmBlock"sym] = {"entropy"sym: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=bytes, "max_gap"sym: 0u32, "max_stake"sym: 0i128, "max_zeros"sym: 0u32, "min_gap"sym: 4294967295u32, "min_stake"sym: 0i128, "min_zeros"sym: 4294967295u32, "normalized_total"sym: 0i128, "staked_total"sym: 0i128, "timestamp"sym: 1756315397u64}
+ Contract CDSW…ITAO updated instance data ["FarmIndex"sym] = 11u32
+ Contract CDSW…ITAO created temporary data ["Pail"sym, CCOV…V45H, 11u32] = {"gap"sym: (), "sequence"sym: 224350u32, "stake"sym: 0i128, "zeros"sym: ()}
+ Contract CDSW…ITAO created temporary data ["Block"sym, 11u32] = {"entropy"sym: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=bytes, "max_gap"sym: 0u32, "max_stake"sym: 0i128, "max_zeros"sym: 0u32, "min_gap"sym: 0u32, "min_stake"sym: 0i128, "min_zeros"sym: 0u32, "normalized_total"sym: 0i128, "staked_total"sym: 0i128, "timestamp"sym: 1756315397u64}
+ Contract CCOV…V45H created temporary data 2590591658846955072nonce = ()
+ Time-to-live extended to ledger 225069 for CCOV…V45H contract state entry 9d3cd2…15d7ee
+ Time-to-live extended to ledger 225069 for CDSW…ITAO contract state entry 0dd756…12cc9b
+ Time-to-live extended to ledger 225069 for CDSW…ITAO contract state entry 906ad7…201847
+Entries read: 9
+Entries write: 4
+Ledger read: 0B
+Ledger write: 1,468B
+Key read: 0B
+Key write: 0B
+Data read: 0B
+Data write: 1,468B
+Code read: 0B
+Code write: 0B
+Instructions: 6,041,240
+Memory usage: 3,159,757B
+Invoke time: 939µs
+Fees: 30,757 refundable, 94,922 non-refundable, 30,717 rent
+	2025-08-27 17:23:17 UTC
+GDJH…SL33 invoked contract CDSW…ITAO plant(CDWI…UJRH, 0i128)
+ Invoked contract CDSW…ITAO plant(CDWI…UJRH, 0i128)
+ Invoked contract CDWI…UJRH __check_auth(NcJPAdKHkMCMeGFBLBi6Ltk8/3/flAOVcDZCHLNltXI=bytes, [{["Secp256r1"sym, /isfq4mVEKKSrPxqvxYoWg==bytes]: ["Secp256r1"sym, {"authenticator_data"sym: K8/zFz1fHDwb0Sd53A1rF8OHReGdS3SFZOrz9kuYY60ZAAAAAA==bytes, "client_data_json"sym: eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmd…WxlZmFybS54eXoiLCJjcm9zc09yaWdpbiI6ZmFsc2V9bytes, "signature"sym: KqyXZOt2X0fXomumwQjnLtWGbz9uGF28AP9JPu7y4CJ…1Lvv681VRRqvUbW28RCQCgsKwpXcApbQHayjS7bpA==bytes}]}], [["Contract"sym, {"args"sym: [CDWI…UJRH, 0i128], "contract"sym: CDSW…ITAO, "fn_name"sym: "plant"sym}]])
+ Contract CDSW…ITAO updated instance data <LedgerKeyContractInstance> = 0e1d46b1bcb4c9ca2957f228514ca6aa468e500bf7aaa0268029bc0913ac0254wasm
+ Contract CDSW…ITAO updated instance data ["FarmBlock"sym] = {"entropy"sym: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=bytes, "max_gap"sym: 0u32, "max_stake"sym: 0i128, "max_zeros"sym: 0u32, "min_gap"sym: 4294967295u32, "min_stake"sym: 0i128, "min_zeros"sym: 4294967295u32, "normalized_total"sym: 0i128, "staked_total"sym: 0i128, "timestamp"sym: 1756314692u64}
+ Contract CDSW…ITAO updated instance data ["FarmIndex"sym] = 10u32
+ Contract CDWI…UJRH created temporary data 1662277756896456905nonce = ()
+ Contract CDSW…ITAO created temporary data ["Pail"sym, CDWI…UJRH, 10u32] = {"gap"sym: (), "sequence"sym: 224209u32, "stake"sym: 0i128, "zeros"sym: ()}
+ Contract CDSW…ITAO created temporary data ["Block"sym, 10u32] = {"entropy"sym: AAAACKteCW44xBBYTZd55P18qMMZq/qDoE8dXVrGSDw=bytes, "max_gap"sym: 9u32, "max_stake"sym: 0i128, "max_zeros"sym: 7u32, "min_gap"sym: 9u32, "min_stake"sym: 0i128, "min_zeros"sym: 7u32, "normalized_total"sym: 0i128, "staked_total"sym: 0i128, "timestamp"sym: 1756314692u64}
+ Time-to-live extended to ledger 224928 for CDSW…ITAO contract state entry e3732e…014243
+ Time-to-live extended to ledger 224928 for CDSW…ITAO contract state entry 0afd3b…d7dee3
+ Time-to-live extended to ledger 224928 for CDWI…UJRH contract state entry 21f30b…9b896e
+Entries read: 9
+Entries write: 4
+Ledger read: 0B
+Ledger write: 1,468B
+Key read: 0B
+Key write: 0B
+Data read: 0B
+Data write: 1,468B
+Code read: 0B
+Code write: 0B
+Instructions: 6,037,422
+Memory usage: 3,159,245B
+Invoke time: 596µs
+Fees: 30,757 refundable, 94,090 non-refundable, 30,717 rent
+	2025-08-27 17:11:32 UTC
+GDJH…SL33 invoked contract CCOV…V45H add_signer(["Ed25519"sym, 62yIzrPkVB8mhM4C0wlk7hMJMqZ5FmFvn+Y2VpqiB8k=bytes, [()], [{CAAV…VHZZ: (), CDSW…ITAO: ()}], ["Temporary"sym]])
+ Invoked contract CCOV…V45H add_signer("Ed25519"sym, 62yIzrPkVB8mhM4C0wlk7hMJMqZ5FmFvn+Y2VpqiB8k=bytes, [()], [{CAAV…VHZZ: (), CDSW…ITAO: ()}], ["Temporary"sym])
+ Invoked contract CCOV…V45H __check_auth(tgzIKjxbJbFAx4kd+bj3hWgOb5HZ4+guMp4/bF7uvKo=bytes, [{["Secp256r1"sym, FJKlmzb/jncRbMmKV1D8Eftaw9mmVBeDMnmIYx+7VbM=bytes]: ["Secp256r1"sym, {"authenticator_data"sym: K8/zFz1fHDwb0Sd53A1rF8OHReGdS3SFZOrz9kuYY60FAAAAAg==bytes, "client_data_json"sym: eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmd…WxlZmFybS54eXoiLCJjcm9zc09yaWdpbiI6ZmFsc2V9bytes, "signature"sym: Hw/ahGHAlefKliST1RMKKfigkqzNpIrsgMeM3kj1+LM…cTxHNUTug7W9POUQjUxuFSh9+r96sQkSLrhrhV6hw==bytes}]}], [["Contract"sym, {"args"sym: [["Ed25519"sym, 62yIzrPkVB8mhM4C0wlk7hMJMqZ5FmFvn+Y2VpqiB8k=bytes, [()], [{CAAV…VHZZ: (), CDSW…ITAO: ()}], ["Temporary"sym]]], "contract"sym: CCOV…V45H, "fn_name"sym: "add_signer"sym}]])
+ Contract CCOV…V45H raised event ["sw_v1"sym, "add"sym, ["Ed25519"sym, 62yIzrPkVB8mhM4C0wlk7hMJMqZ5FmFvn+Y2VpqiB8k=bytes]] with data [["Ed25519"sym, [()], [{CAAV…VHZZ: (), CDSW…ITAO: ()}]], ["Temporary"sym]]
+ Contract CCOV…V45H created temporary data 721120115529958601nonce = ()
+ Contract CCOV…V45H created temporary data ["Ed25519"sym, 62yIzrPkVB8mhM4C0wlk7hMJMqZ5FmFvn+Y2VpqiB8k=bytes] = ["Ed25519"sym, [()], [{CAAV…VHZZ: (), CDSW…ITAO: ()}]]
+ Time-to-live extended to ledger 3333384 for CCOV…V45H contract state entry f638d9…37ce42
+ Time-to-live extended to ledger 223704 for CCOV…V45H contract state entry 230930…1c4671
+Entries read: 7
+Entries write: 2
+Ledger read: 0B
+Ledger write: 352B
+Key read: 0B
+Key write: 0B
+Data read: 0B
+Data write: 352B
+Code read: 0B
+Code write: 0B
+Emitted events: 1 (352B)
+Instructions: 5,445,621
+Memory usage: 3,067,161B
+Invoke time: 827µs
+Fees: 373,788 refundable, 74,360 non-refundable, 370,350 rent
+	2025-08-27 15:29:25 UTC
+GDJH…SL33 invoked contract CDSW…ITAO work(CCOV…V45H, AAAACKteCW44xBBYTZd55P18qMMZq/qDoE8dXVrGSDw=bytes, 64382913u64) → 9u32
+ Invoked contract CDSW…ITAO work(CCOV…V45H, AAAACKteCW44xBBYTZd55P18qMMZq/qDoE8dXVrGSDw=bytes, 64382913u64) → 9u32
+ Contract CDSW…ITAO updated instance data <LedgerKeyContractInstance> = 0e1d46b1bcb4c9ca2957f228514ca6aa468e500bf7aaa0268029bc0913ac0254wasm
+ Contract CDSW…ITAO updated instance data ["FarmBlock"sym] = {"entropy"sym: AAAACKteCW44xBBYTZd55P18qMMZq/qDoE8dXVrGSDw=bytes, "max_gap"sym: 9u32, "max_stake"sym: 0i128, "max_zeros"sym: 7u32, "min_gap"sym: 9u32, "min_stake"sym: 0i128, "min_zeros"sym: 7u32, "normalized_total"sym: 0i128, "staked_total"sym: 0i128, "timestamp"sym: 1756308385u64}
+ Contract CDSW…ITAO updated temporary data ["Pail"sym, CCOV…V45H, 9u32] = {"gap"sym: 9u32, "sequence"sym: 222949u32, "stake"sym: 0i128, "zeros"sym: 7u32}
+ Contract CDSW…ITAO updated temporary data ["Block"sym, 9u32] = {"entropy"sym: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=bytes, "max_gap"sym: 0u32, "max_stake"sym: 0i128, "max_zeros"sym: 0u32, "min_gap"sym: 0u32, "min_stake"sym: 0i128, "min_zeros"sym: 0u32, "normalized_total"sym: 3i128, "staked_total"sym: 0i128, "timestamp"sym: 1756308385u64}
+Entries read: 4
+Entries write: 3
+Ledger read: 0B
+Ledger write: 1,404B
+Key read: 0B
+Key write: 0B
+Data read: 0B
+Data write: 1,404B
+Code read: 0B
+Code write: 0B
+Instructions: 1,331,799
+Memory usage: 1,595,084B
+Invoke time: 356µs
+Fees: 82 refundable, 54,605 non-refundable, 3 rent
+	2025-08-27 15:27:10 UTC
+GDJH…SL33 invoked contract CDSW…ITAO plant(CCOV…V45H, 0i128)
+ Invoked contract CDSW…ITAO plant(CCOV…V45H, 0i128)
+ Invoked contract CCOV…V45H __check_auth(SamInARSAhUX/XJJ4JDjFanrCV/FUAJgCj/JX2gTzqU=bytes, [{["Secp256r1"sym, FJKlmzb/jncRbMmKV1D8Eftaw9mmVBeDMnmIYx+7VbM=bytes]: ["Secp256r1"sym, {"authenticator_data"sym: K8/zFz1fHDwb0Sd53A1rF8OHReGdS3SFZOrz9kuYY60FAAAAAQ==bytes, "client_data_json"sym: eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmd…WxlZmFybS54eXoiLCJjcm9zc09yaWdpbiI6ZmFsc2V9bytes, "signature"sym: 6EzBjk7mSXiX6q9cWBy7xq7xuGiVUZpliY32a4A/a1M…JpONGxWtjp6qiddyXSNv1tt/Wh/TKs80JbFXwXpgQ==bytes}]}], [["Contract"sym, {"args"sym: [CCOV…V45H, 0i128], "contract"sym: CDSW…ITAO, "fn_name"sym: "plant"sym}]])
+ Contract CDSW…ITAO updated instance data <LedgerKeyContractInstance> = 0e1d46b1bcb4c9ca2957f228514ca6aa468e500bf7aaa0268029bc0913ac0254wasm
+ Contract CDSW…ITAO updated instance data ["FarmBlock"sym] = {"entropy"sym: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=bytes, "max_gap"sym: 0u32, "max_stake"sym: 0i128, "max_zeros"sym: 0u32, "min_gap"sym: 4294967295u32, "min_stake"sym: 0i128, "min_zeros"sym: 4294967295u32, "normalized_total"sym: 0i128, "staked_total"sym: 0i128, "timestamp"sym: 1756308385u64}
+ Contract CDSW…ITAO updated instance data ["FarmIndex"sym] = 9u32
+ Contract CDSW…ITAO created temporary data ["Pail"sym, CCOV…V45H, 9u32] = {"gap"sym: (), "sequence"sym: 222949u32, "stake"sym: 0i128, "zeros"sym: ()}
+ Contract CDSW…ITAO created temporary data ["Block"sym, 9u32] = {"entropy"sym: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=bytes, "max_gap"sym: 0u32, "max_stake"sym: 0i128, "max_zeros"sym: 0u32, "min_gap"sym: 0u32, "min_stake"sym: 0i128, "min_zeros"sym: 0u32, "normalized_total"sym: 0i128, "staked_total"sym: 0i128, "timestamp"sym: 1756308385u64}
+ Contract CCOV…V45H created temporary data 8960137057951035003nonce = ()
+ Time-to-live extended to ledger 223668 for CDSW…ITAO contract state entry 53106d…dc8de1
+ Time-to-live extended to ledger 223668 for CCOV…V45H contract state entry 145738…a3a274
+ Time-to-live extended to ledger 223668 for CDSW…ITAO contract state entry d0bf25…932fae
+Entries read: 9
+Entries write: 4
+Ledger read: 0B
+Ledger write: 1,468B
+Key read: 0B
+Key write: 0B
+Data read: 0B
+Data write: 1,468B
+Code read: 0B
+Code write: 0B
+Instructions: 6,041,240
+Memory usage: 3,159,757B
+Invoke time: 906µs
+Fees: 30,757 refundable, 94,922 non-refundable, 30,717 rent
+	2025-08-27 15:26:25 UTC
+GDJH…SL33 invoked contract CDSW…ITAO plant(CDWI…UJRH, 0i128)
+ Invoked contract CDSW…ITAO plant(CDWI…UJRH, 0i128)
+ Invoked contract CDWI…UJRH __check_auth(SL88CBmeYsNIt51d8ljNSjliO+YHxKzw7BONymrDhyM=bytes, [{["Secp256r1"sym, /isfq4mVEKKSrPxqvxYoWg==bytes]: ["Secp256r1"sym, {"authenticator_data"sym: K8/zFz1fHDwb0Sd53A1rF8OHReGdS3SFZOrz9kuYY60ZAAAAAA==bytes, "client_data_json"sym: eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmd…WxlZmFybS54eXoiLCJjcm9zc09yaWdpbiI6ZmFsc2V9bytes, "signature"sym: tdNRTWbdsMRzsdoySIfeGv9Bx0QeZL6BYD6hbD+GT4s…oRBfW3gV7L8Nq3DNX60ZpkbVitqaagg85V6RFzatw==bytes}]}], [["Contract"sym, {"args"sym: [CDWI…UJRH, 0i128], "contract"sym: CDSW…ITAO, "fn_name"sym: "plant"sym}]])
+ Contract CDSW…ITAO updated instance data <LedgerKeyContractInstance> = 0e1d46b1bcb4c9ca2957f228514ca6aa468e500bf7aaa0268029bc0913ac0254wasm
+ Contract CDSW…ITAO updated instance data ["FarmBlock"sym] = {"entropy"sym: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=bytes, "max_gap"sym: 0u32, "max_stake"sym: 0i128, "max_zeros"sym: 0u32, "min_gap"sym: 4294967295u32, "min_stake"sym: 0i128, "min_zeros"sym: 4294967295u32, "normalized_total"sym: 0i128, "staked_total"sym: 0i128, "timestamp"sym: 1756298720u64}
+ Contract CDSW…ITAO updated instance data ["FarmIndex"sym] = 8u32
+ Contract CDWI…UJRH created temporary data 2534648131778015754nonce = ()
+ Contract CDSW…ITAO created temporary data ["Pail"sym, CDWI…UJRH, 8u32] = {"gap"sym: (), "sequence"sym: 221018u32, "stake"sym: 0i128, "zeros"sym: ()}
+ Contract CDSW…ITAO created temporary data ["Block"sym, 8u32] = {"entropy"sym: AAAAGnEy8GnAO6FW/gVsTYWqvnsAcCw6UD7Qdz0Lg9g=bytes, "max_gap"sym: 11u32, "max_stake"sym: 0i128, "max_zeros"sym: 6u32, "min_gap"sym: 11u32, "min_stake"sym: 0i128, "min_zeros"sym: 6u32, "normalized_total"sym: 0i128, "staked_total"sym: 0i128, "timestamp"sym: 1756298720u64}
+ Time-to-live extended to ledger 221737 for CDSW…ITAO contract state entry 9b6a7c…a87bfd
+ Time-to-live extended to ledger 221737 for CDSW…ITAO contract state entry 772b5d…fce63b
+ Time-to-live extended to ledger 221737 for CDWI…UJRH contract state entry 8eb1fa…bb4636
+Entries read: 9
+Entries write: 4
+Ledger read: 0B
+Ledger write: 1,468B
+Key read: 0B
+Key write: 0B
+Data read: 0B
+Data write: 1,468B
+Code read: 0B
+Code write: 0B
+Instructions: 6,037,422
+Memory usage: 3,159,245B
+Invoke time: 626µs
+Fees: 30,757 refundable, 94,090 non-refundable, 30,717 rent
+	2025-08-27 12:45:20 UTC
+GDJH…SL33 invoked contract CDSW…ITAO work(CDWI…UJRH, AAAAGnEy8GnAO6FW/gVsTYWqvnsAcCw6UD7Qdz0Lg9g=bytes, 100410741u64) → 11u32
+ Invoked contract CDSW…ITAO work(CDWI…UJRH, AAAAGnEy8GnAO6FW/gVsTYWqvnsAcCw6UD7Qdz0Lg9g=bytes, 100410741u64) → 11u32
+ Contract CDSW…ITAO updated instance data <LedgerKeyContractInstance> = 0e1d46b1bcb4c9ca2957f228514ca6aa468e500bf7aaa0268029bc0913ac0254wasm
+ Contract CDSW…ITAO updated instance data ["FarmBlock"sym] = {"entropy"sym: AAAAGnEy8GnAO6FW/gVsTYWqvnsAcCw6UD7Qdz0Lg9g=bytes, "max_gap"sym: 11u32, "max_stake"sym: 0i128, "max_zeros"sym: 6u32, "min_gap"sym: 11u32, "min_stake"sym: 0i128, "min_zeros"sym: 6u32, "normalized_total"sym: 0i128, "staked_total"sym: 0i128, "timestamp"sym: 1756298325u64}
+ Contract CDSW…ITAO updated temporary data ["Pail"sym, CDWI…UJRH, 7u32] = {"gap"sym: 11u32, "sequence"sym: 220939u32, "stake"sym: 0i128, "zeros"sym: 6u32}
+ Contract CDSW…ITAO updated temporary data ["Block"sym, 7u32] = {"entropy"sym: AAAANu5lOSBLVIaZlLu5sElE13xJgBwvGEh4Om1C2Ao=bytes, "max_gap"sym: 6u32, "max_stake"sym: 0i128, "max_zeros"sym: 6u32, "min_gap"sym: 6u32, "min_stake"sym: 0i128, "min_zeros"sym: 6u32, "normalized_total"sym: 3i128, "staked_total"sym: 0i128, "timestamp"sym: 1756298325u64}
+Entries read: 4
+Entries write: 3
+Ledger read: 0B
+Ledger write: 1,404B
+Key read: 0B
+Key write: 0B
+Data read: 0B
+Data write: 1,404B
+Code read: 0B
+Code write: 0B
+Instructions: 1,331,799
+Memory usage: 1,595,084B
+Invoke time: 265µs
+Fees: 82 refundable, 54,605 non-refundable, 3 rent
+	2025-08-27 12:39:40 UTC
+GDJH…SL33 invoked contract CDSW…ITAO harvest(CDWI…UJRH, 6u32) → 25050000000i128
+ Invoked contract CDSW…ITAO harvest(CDWI…UJRH, 6u32) → 25050000000i128
+ Invoked contract CAAV…VHZZ KALEGCHP…R2AB mint(CDWI…UJRH, 25050000000i128)
+ 2,505 KALEGCHP…R2AB minted
+ 2,505 KALEGCHP…R2AB credited to contract CDWI…UJRH
+ Contract CAAV…VHZZ raised event ["mint"sym, CDWI…UJRH, "KALE:GCHPTWXMT3HYF4RLZHWBNRF4MPXLTJ76ISHMSYIWCCDXWUYOQG5MR2AB"str] with data 25050000000i128
+ Contract CDSW…ITAO removed temporary data ["Pail"sym, CDWI…UJRH, 6u32]
+ Contract CAAV…VHZZ created persistent data ["Balance"sym, CDWI…UJRH] = {"amount"sym: 25050000000i128, "authorized"sym: truebool, "clawback"sym: falsebool}
+ Time-to-live extended to ledger 739346 for CAAV…VHZZ contract state entry 3c4786…8fa381
+ Time-to-live extended to ledger 341906 for 622730…834bd7
+ Time-to-live extended to ledger 221579 for CDSW…ITAO contract state entry 707765…8c970d
+Entries read: 7
+Entries write: 1
+Ledger read: 144B
+Ledger write: 224B
+Key read: 40B
+Key write: 0B
+Data read: 144B
+Data write: 224B
+Code read: 0B
+Code write: 0B
+Emitted events: 1 (216B)
+Instructions: 1,329,802
+Memory usage: 1,584,200B
+Invoke time: 270µs
+Fees: 126,740 refundable, 49,917 non-refundable, 124,630 rent
+	2025-08-27 12:39:20 UTC
+GDJH…SL33 invoked contract CDSW…ITAO plant(CDWI…UJRH, 0i128)
+ Invoked contract CDSW…ITAO plant(CDWI…UJRH, 0i128)
+ Invoked contract CDWI…UJRH __check_auth(e6FjeXj+NOupV0rlTP+KOK72kh5P9T98H0c08Zz5UzQ=bytes, [{["Secp256r1"sym, /isfq4mVEKKSrPxqvxYoWg==bytes]: ["Secp256r1"sym, {"authenticator_data"sym: K8/zFz1fHDwb0Sd53A1rF8OHReGdS3SFZOrz9kuYY60ZAAAAAA==bytes, "client_data_json"sym: eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmd…WxlZmFybS54eXoiLCJjcm9zc09yaWdpbiI6ZmFsc2V9bytes, "signature"sym: XZLisXYOyBoliz53syDlMcfd1fYDCb79pdtqvkwMRoR…9HJQAjChydwdb9raX0GUUvtHbCHGPfM6a9hq/z9QQ==bytes}]}], [["Contract"sym, {"args"sym: [CDWI…UJRH, 0i128], "contract"sym: CDSW…ITAO, "fn_name"sym: "plant"sym}]])
+ Contract CDSW…ITAO updated instance data <LedgerKeyContractInstance> = 0e1d46b1bcb4c9ca2957f228514ca6aa468e500bf7aaa0268029bc0913ac0254wasm
+ Contract CDSW…ITAO updated instance data ["FarmBlock"sym] = {"entropy"sym: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=bytes, "max_gap"sym: 0u32, "max_stake"sym: 0i128, "max_zeros"sym: 0u32, "min_gap"sym: 4294967295u32, "min_stake"sym: 0i128, "min_zeros"sym: 4294967295u32, "normalized_total"sym: 0i128, "staked_total"sym: 0i128, "timestamp"sym: 1756298325u64}
+ Contract CDSW…ITAO updated instance data ["FarmIndex"sym] = 7u32
+ Contract CDWI…UJRH created temporary data 2990943461797479211nonce = ()
+ Contract CDSW…ITAO created temporary data ["Pail"sym, CDWI…UJRH, 7u32] = {"gap"sym: (), "sequence"sym: 220939u32, "stake"sym: 0i128, "zeros"sym: ()}
+ Contract CDSW…ITAO created temporary data ["Block"sym, 7u32] = {"entropy"sym: AAAANu5lOSBLVIaZlLu5sElE13xJgBwvGEh4Om1C2Ao=bytes, "max_gap"sym: 6u32, "max_stake"sym: 0i128, "max_zeros"sym: 6u32, "min_gap"sym: 6u32, "min_stake"sym: 0i128, "min_zeros"sym: 6u32, "normalized_total"sym: 0i128, "staked_total"sym: 0i128, "timestamp"sym: 1756298325u64}
+ Time-to-live extended to ledger 221658 for CDWI…UJRH contract state entry e37646…9e53da
+ Time-to-live extended to ledger 221658 for CDSW…ITAO contract state entry 3fc8d8…1d1371
+ Time-to-live extended to ledger 221658 for CDSW…ITAO contract state entry d858cd…8c2d4d
+Entries read: 9
+Entries write: 4
+Ledger read: 0B
+Ledger write: 1,468B
+Key read: 0B
+Key write: 0B
+Data read: 0B
+Data write: 1,468B
+Code read: 0B
+Code write: 0B
+Instructions: 6,037,422
+Memory usage: 3,159,245B
+Invoke time: 600µs
+Fees: 30,757 refundable, 94,090 non-refundable, 30,717 rent
+	2025-08-27 12:38:45 UTC
+GDJH…SL33 invoked contract CDWI…UJRH add_signer(["Ed25519"sym, DxHgg9TVkuGwMVG2kGZNwu0D7/eo1PhqoHs5NwlbZ14=bytes, [()], [{CAAV…VHZZ: (), CDSW…ITAO: ()}], ["Temporary"sym]])
+ Invoked contract CDWI…UJRH add_signer("Ed25519"sym, DxHgg9TVkuGwMVG2kGZNwu0D7/eo1PhqoHs5NwlbZ14=bytes, [()], [{CAAV…VHZZ: (), CDSW…ITAO: ()}], ["Temporary"sym])
+ Invoked contract CDWI…UJRH __check_auth(DwhePm+hMHU81KroBV2Of+2Uz51Mrk4If7b3V/OXpbM=bytes, [{["Secp256r1"sym, /isfq4mVEKKSrPxqvxYoWg==bytes]: ["Secp256r1"sym, {"authenticator_data"sym: K8/zFz1fHDwb0Sd53A1rF8OHReGdS3SFZOrz9kuYY60ZAAAAAA==bytes, "client_data_json"sym: eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmd…WxlZmFybS54eXoiLCJjcm9zc09yaWdpbiI6ZmFsc2V9bytes, "signature"sym: MJhMr4UlzrBla99Tjm2N7b1UMJ836AA/QbpXF8izXfk…sztu11735aHTma165GNpzjGtCNW/D05KAfUJT8Fxg==bytes}]}], [["Contract"sym, {"args"sym: [["Ed25519"sym, DxHgg9TVkuGwMVG2kGZNwu0D7/eo1PhqoHs5NwlbZ14=bytes, [()], [{CAAV…VHZZ: (), CDSW…ITAO: ()}], ["Temporary"sym]]], "contract"sym: CDWI…UJRH, "fn_name"sym: "add_signer"sym}]])
+ Contract CDWI…UJRH raised event ["sw_v1"sym, "add"sym, ["Ed25519"sym, DxHgg9TVkuGwMVG2kGZNwu0D7/eo1PhqoHs5NwlbZ14=bytes]] with data [["Ed25519"sym, [()], [{CAAV…VHZZ: (), CDSW…ITAO: ()}]], ["Temporary"sym]]
+ Contract CDWI…UJRH created temporary data 8072177651488110297nonce = ()
+ Contract CDWI…UJRH created temporary data ["Ed25519"sym, DxHgg9TVkuGwMVG2kGZNwu0D7/eo1PhqoHs5NwlbZ14=bytes] = ["Ed25519"sym, [()], [{CAAV…VHZZ: (), CDSW…ITAO: ()}]]
+ Time-to-live extended to ledger 3331295 for CDWI…UJRH contract state entry fa59d5…a2b9d4
+ Time-to-live extended to ledger 221615 for CDWI…UJRH contract state entry 1074c2…e213dc
+Entries read: 7
+Entries write: 2
+Ledger read: 0B
+Ledger write: 352B
+Key read: 0B
+Key write: 0B
+Data read: 0B
+Data write: 352B
+Code read: 0B
+Code write: 0B
+Emitted events: 1 (352B)
+Instructions: 5,442,429
+Memory usage: 3,066,649B
+Invoke time: 876µs
+Fees: 373,788 refundable, 73,514 non-refundable, 370,350 rent
+	2025-08-27 12:35:10 UTC
+GDJH…SL33 invoked contract CDSW…ITAO work(CDWI…UJRH, AAAANu5lOSBLVIaZlLu5sElE13xJgBwvGEh4Om1C2Ao=bytes, 140425385u64) → 6u32
+ Invoked contract CDSW…ITAO work(CDWI…UJRH, AAAANu5lOSBLVIaZlLu5sElE13xJgBwvGEh4Om1C2Ao=bytes, 140425385u64) → 6u32
+ Contract CDSW…ITAO updated instance data <LedgerKeyContractInstance> = 0e1d46b1bcb4c9ca2957f228514ca6aa468e500bf7aaa0268029bc0913ac0254wasm
+ Contract CDSW…ITAO updated instance data ["FarmBlock"sym] = {"entropy"sym: AAAANu5lOSBLVIaZlLu5sElE13xJgBwvGEh4Om1C2Ao=bytes, "max_gap"sym: 6u32, "max_stake"sym: 0i128, "max_zeros"sym: 6u32, "min_gap"sym: 6u32, "min_stake"sym: 0i128, "min_zeros"sym: 6u32, "normalized_total"sym: 0i128, "staked_total"sym: 0i128, "timestamp"sym: 1756297929u64}
+ Contract CDSW…ITAO updated temporary data ["Pail"sym, CDWI…UJRH, 6u32] = {"gap"sym: 6u32, "sequence"sym: 220860u32, "stake"sym: 0i128, "zeros"sym: 6u32}
+ Contract CDSW…ITAO updated temporary data ["Block"sym, 6u32] = {"entropy"sym: AAAAtTVZ/099tTlsfzg5LnOlzy+q/JajIWPDCOe9HQw=bytes, "max_gap"sym: 405u32, "max_stake"sym: 0i128, "max_zeros"sym: 6u32, "min_gap"sym: 405u32, "min_stake"sym: 0i128, "min_zeros"sym: 6u32, "normalized_total"sym: 3i128, "staked_total"sym: 0i128, "timestamp"sym: 1756297929u64}
+Entries read: 4
+Entries write: 3
+Ledger read: 0B
+Ledger write: 1,404B
+Key read: 0B
+Key write: 0B
+Data read: 0B
+Data write: 1,404B
+Code read: 0B
+Code write: 0B
+Instructions: 1,331,799
+Memory usage: 1,595,084B
+Invoke time: 356µs
+Fees: 82 refundable, 54,605 non-refundable, 3 rent
+	2025-08-27 12:32:39 UTC
+GDJH…SL33 invoked contract CDSW…ITAO plant(CDWI…UJRH, 0i128)
+ Invoked contract CDSW…ITAO plant(CDWI…UJRH, 0i128)
+ Invoked contract CDWI…UJRH __check_auth(eUts0YbPkSYVxwdjYABLE5LCjOzwmRULwZ7OHQ0jRh4=bytes, [{["Secp256r1"sym, /isfq4mVEKKSrPxqvxYoWg==bytes]: ["Secp256r1"sym, {"authenticator_data"sym: K8/zFz1fHDwb0Sd53A1rF8OHReGdS3SFZOrz9kuYY60ZAAAAAA==bytes, "client_data_json"sym: eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmd…GUuIFNlZSBodHRwczovL2dvby5nbC95YWJQZXgifQ==bytes, "signature"sym: 0mxap8SClmxanfa4U7DaL33SCKSTgi+ss/ZwEat9W/o…22DCVdECk2OFfbZlBgazAsU5M7E3asDaJmljGvdqg==bytes}]}], [["Contract"sym, {"args"sym: [CDWI…UJRH, 0i128], "contract"sym: CDSW…ITAO, "fn_name"sym: "plant"sym}]])
+ Contract CDSW…ITAO updated instance data <LedgerKeyContractInstance> = 0e1d46b1bcb4c9ca2957f228514ca6aa468e500bf7aaa0268029bc0913ac0254wasm
+ Contract CDSW…ITAO updated instance data ["FarmBlock"sym] = {"entropy"sym: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=bytes, "max_gap"sym: 0u32, "max_stake"sym: 0i128, "max_zeros"sym: 0u32, "min_gap"sym: 4294967295u32, "min_stake"sym: 0i128, "min_zeros"sym: 4294967295u32, "normalized_total"sym: 0i128, "staked_total"sym: 0i128, "timestamp"sym: 1756297929u64}
+ Contract CDSW…ITAO updated instance data ["FarmIndex"sym] = 6u32
+ Contract CDWI…UJRH created temporary data 7866977701244476833nonce = ()
+ Contract CDSW…ITAO created temporary data ["Pail"sym, CDWI…UJRH, 6u32] = {"gap"sym: (), "sequence"sym: 220860u32, "stake"sym: 0i128, "zeros"sym: ()}
+ Contract CDSW…ITAO created temporary data ["Block"sym, 6u32] = {"entropy"sym: AAAAtTVZ/099tTlsfzg5LnOlzy+q/JajIWPDCOe9HQw=bytes, "max_gap"sym: 405u32, "max_stake"sym: 0i128, "max_zeros"sym: 6u32, "min_gap"sym: 405u32, "min_stake"sym: 0i128, "min_zeros"sym: 6u32, "normalized_total"sym: 0i128, "staked_total"sym: 0i128, "timestamp"sym: 1756297929u64}
+ Time-to-live extended to ledger 221579 for CDSW…ITAO contract state entry 842116…46bedc
+ Time-to-live extended to ledger 221579 for CDSW…ITAO contract state entry 707765…8c970d
+ Time-to-live extended to ledger 221579 for CDWI…UJRH contract state entry 929356…2adcb5
+Entries read: 9
+Entries write: 4
+Ledger read: 0B
+Ledger write: 1,468B
+Key read: 0B
+Key write: 0B
+Data read: 0B
+Data write: 1,468B
+Code read: 0B
+Code write: 0B
+Instructions: 6,238,226
+Memory usage: 3,159,678B
+Invoke time: 974µs
+Fees: 30,757 refundable, 96,496 non-refundable, 30,717 rent
+	2025-08-27 12:32:09 UTC
+GDJH…SL33 invoked contract CDLZ…CYSC XLMstellar.org transfer(GDVU…PGIU, CA7L…657P, 120000000i128)
+ Invoked contract CDLZ…CYSC XLMstellar.org transfer(GDVU…PGIU, CA7L…657P, 120000000i128)
+ 12 XLMstellar.org credited to contract CA7L…657P
+ Contract CDLZ…CYSC raised event ["transfer"sym, GDVU…PGIU, CA7L…657P, "native"str] with data 120000000i128
+ 12 XLMstellar.org debited from account GDVU…PGIU
+ Contract CDLZ…CYSC updated persistent data ["Balance"sym, CA7L…657P] = {"amount"sym: 270000000i128, "authorized"sym: truebool, "clawback"sym: falsebool}
+ Contract GDVU…PGIU created temporary data 4036165933266228303nonce = ()
+ Time-to-live extended to ledger 217571 for GDVU…PGIU contract state entry b6fe8c…44c2ab
+Entries read: 4
+Entries write: 3
+Ledger read: 92B
+Ledger write: 392B
+Key read: 40B
+Key write: 0B
+Data read: 92B
+Data write: 392B
+Code read: 0B
+Code write: 0B
+Emitted events: 1 (192B)
+Instructions: 682,087
+Memory usage: 86,512B
+Invoke time: 198µs
+Fees: 12,062 refundable, 62,484 non-refundable, 10,187 rent
+	2025-08-27 06:57:51 UTC
+GDJH…SL33 invoked contract CDLZ…CYSC XLMstellar.org transfer(GDVU…PGIU, CA7L…657P, 150000000i128)
+ Invoked contract CDLZ…CYSC XLMstellar.org transfer(GDVU…PGIU, CA7L…657P, 150000000i128)
+ 15 XLMstellar.org credited to contract CA7L…657P
+ Contract CDLZ…CYSC raised event ["transfer"sym, GDVU…PGIU, CA7L…657P, "native"str] with data 150000000i128
+ 15 XLMstellar.org debited from account GDVU…PGIU
+ Contract CDLZ…CYSC created persistent data ["Balance"sym, CA7L…657P] = {"amount"sym: 150000000i128, "authorized"sym: truebool, "clawback"sym: falsebool}
+ Contract GDVU…PGIU created temporary data 8900194463631678464nonce = ()
+ Time-to-live extended to ledger 735124 for CDLZ…CYSC contract state entry 2f0981…3cd9e9
+ Time-to-live extended to ledger 217443 for GDVU…PGIU contract state entry 7ef2d6…1c5357
+Entries read: 4
+Entries write: 3
+Ledger read: 92B
+Ledger write: 392B
+Key read: 40B
+Key write: 0B
+Data read: 92B
+Data write: 392B
+Code read: 0B
+Code write: 0B
+Emitted events: 1 (192B)
+Instructions: 662,993
+Memory usage: 74,082B
+Invoke time: 153µs
+Fees: 115,560 refundable, 62,430 non-refundable, 113,685 rent
+	2025-08-27 06:47:10 UTC
+GDJH…SL33 invoked contract CDO7…TTZY deploy_idempotent(GBZV…JV2R, {"constructor_args"sym: [[["Ed25519"sym, {"public_key"sym: jIs0hT1x30zAOrS1onHWSNk9YHcHcIVYYgyJ7yeUYYg=bytes}, ["Admin"sym]]], []], "salt"sym: 56S7RoIvdRQ3RnUaKx0+eqQwWsqI4V88QWo9pAKxJ3g=bytes, "wasm_hash"sym: wXYxaCK1gylJi2LZdV4f2wbf2SloHI0KYfgcKwGpsOE=bytes})
+ Invoked contract CDO7…TTZY deploy_idempotent(GBZV…JV2R, {"constructor_args"sym: [[["Ed25519"sym, {"public_key"sym: jIs0hT1x30zAOrS1onHWSNk9YHcHcIVYYgyJ7yeUYYg=bytes}, ["Admin"sym]]], []], "salt"sym: 56S7RoIvdRQ3RnUaKx0+eqQwWsqI4V88QWo9pAKxJ3g=bytes, "wasm_hash"sym: wXYxaCK1gylJi2LZdV4f2wbf2SloHI0KYfgcKwGpsOE=bytes})
+ Invoked contract CCAH…NJUO is_deployed(()) → CCAH…NJUO
+ Invoked contract CCAH…NJUO __constructor([["Ed25519"sym, {"public_key"sym: jIs0hT1x30zAOrS1onHWSNk9YHcHcIVYYgyJ7yeUYYg=bytes}, ["Admin"sym]]], [])
+ Contract CCAH…NJUO created from WASM c1763168…01a9b0e1
+ Execution error scecMissingValue in CDO7…TTZY: "trying to get non-existing value for contract instance"
+ Execution error scecMissingValue in CDO7…TTZY: ["contract try_call failed","is_deployed",[]]
+ Contract CCAH…NJUO raised event ["storage"sym, "store"sym] with data {"operation"sym: ["Store"sym], "storage_type"sym: ["Persistent"sym]}
+ Contract CCAH…NJUO raised event ["storage"sym, "store"sym] with data {"operation"sym: ["Store"sym], "storage_type"sym: ["Persistent"sym]}
+ Contract CCAH…NJUO raised event ["storage"sym, "update"sym] with data {"operation"sym: ["Update"sym], "storage_type"sym: ["Persistent"sym]}
+ Contract CCAH…NJUO raised event ["signer"sym, "added"sym] with data {"signer"sym: ["Ed25519"sym, {"public_key"sym: jIs0hT1x30zAOrS1onHWSNk9YHcHcIVYYgyJ7yeUYYg=bytes}, ["Admin"sym]], "signer_key"sym: ["Ed25519"sym, jIs0hT1x30zAOrS1onHWSNk9YHcHcIVYYgyJ7yeUYYg=bytes]}
+ Contract CCAH…NJUO raised event ["storage"sym, "store"sym] with data {"operation"sym: ["Store"sym], "storage_type"sym: ["Instance"sym]}
+ Contract CCAH…NJUO raised event ["INITIALIZED"sym] with data CCAH…NJUO
+ Contract CDO7…TTZY raised event ["DEPLOYED"sym] with data [{"contract_id"sym: CCAH…NJUO}]
+ Contract code restored 769c28e4…daead46c
+ Contract CCAH…NJUO created instance data <LedgerKeyContractInstance> = c176316822b58329498b62d9755e1fdb06dfd929681c8d0a61f81c2b01a9b0e1wasm
+ Contract CCAH…NJUO created instance data "INIT"sym = truebool
+ Contract CCAH…NJUO created instance data "plugins"sym = {}
+ Contract CCAH…NJUO created persistent data ["Ed25519"sym, jIs0hT1x30zAOrS1onHWSNk9YHcHcIVYYgyJ7yeUYYg=bytes] = ["Ed25519"sym, {"public_key"sym: jIs0hT1x30zAOrS1onHWSNk9YHcHcIVYYgyJ7yeUYYg=bytes}, ["Admin"sym]]
+ Contract CCAH…NJUO created persistent data "admin_cnt"sym = 1u32
+ Contract GBZV…JV2R created temporary data 3845154253210264103nonce = ()
+ Time-to-live extended to ledger 323508 for f0cb95…3e6055
+ Time-to-live extended to ledger 203268 for GBZV…JV2R contract state entry 0e5104…377eff
+ Time-to-live extended to ledger 323508 for CCAH…NJUO contract state entry d2a3d9…c04fef
+ Time-to-live extended to ledger 323508 for CCAH…NJUO contract state entry c5a3a9…89d1c7
+ Time-to-live extended to ledger 323508 for CCAH…NJUO contract state entry 215139…96ed20
+Entries read: 9
+Entries write: 5
+Ledger read: 9,384B
+Ledger write: 9,860B
+Key read: 76B
+Key write: 0B
+Data read: 92B
+Data write: 568B
+Code read: 9,292B
+Code write: 9,292B
+Emitted events: 7 (1,412B)
+Instructions: 4,879,070
+Memory usage: 4,870,015B
+Invoke time: 602µs
+Fees: 6,943,689 refundable, 163,673 non-refundable, 6,929,899 rent
+	2025-08-26 11:04:49 UTC
+GDJH…SL33 invoked contract CAN2…RTVR USDCXMGAZK…G2MN transfer(GCXO…O5QF, CCAH…NJUO, 1000i128)
+ Invoked contract CAN2…RTVR USDCXMGAZK…G2MN transfer(GCXO…O5QF, CCAH…NJUO, 1000i128)
+ 0.0001 USDCXMGAZK…G2MN credited to contract CCAH…NJUO
+ Contract CAN2…RTVR raised event ["transfer"sym, GCXO…O5QF, CCAH…NJUO, "USDCXM:GAZKBG4Q7JCKTY5K5Q42SSUW6F3O6OE2SLP7PYRVW4NYSEPIUMV5G2MN"str] with data 1000i128
+ 0.0001 USDCXMGAZK…G2MN debited from account GCXO…O5QF
+ Contract CAN2…RTVR created persistent data ["Balance"sym, CCAH…NJUO] = {"amount"sym: 1000i128, "authorized"sym: truebool, "clawback"sym: falsebool}
+ Contract GCXO…O5QF created temporary data 8656251467866740072nonce = ()
+ Time-to-live extended to ledger 203265 for GCXO…O5QF contract state entry c6e58c…40a8d7
+ Time-to-live extended to ledger 720946 for CAN2…RTVR contract state entry 165fbd…f3739c
+Entries read: 6
+Entries write: 3
+Ledger read: 412B
+Ledger write: 424B
+Key read: 172B
+Key write: 0B
+Data read: 412B
+Data write: 424B
+Code read: 0B
+Code write: 0B
+Emitted events: 1 (248B)
+Instructions: 742,787
+Memory usage: 104,991B
+Invoke time: 163µs
+Fees: 116,107 refundable, 77,838 non-refundable, 113,685 rent
+	2025-08-26 11:04:34 UTC
+GDJH…SL33 invoked contract CAN2…RTVR USDCXMGAZK…G2MN transfer(GCXO…O5QF, CBEN…C2P5, 1000i128)
+ Invoked contract CAN2…RTVR USDCXMGAZK…G2MN transfer(GCXO…O5QF, CBEN…C2P5, 1000i128)
+ 0.0001 USDCXMGAZK…G2MN credited to contract CBEN…C2P5
+ Contract CAN2…RTVR raised event ["transfer"sym, GCXO…O5QF, CBEN…C2P5, "USDCXM:GAZKBG4Q7JCKTY5K5Q42SSUW6F3O6OE2SLP7PYRVW4NYSEPIUMV5G2MN"str] with data 1000i128
+ 0.0001 USDCXMGAZK…G2MN debited from account GCXO…O5QF
+ Contract CAN2…RTVR created persistent data ["Balance"sym, CBEN…C2P5] = {"amount"sym: 1000i128, "authorized"sym: truebool, "clawback"sym: falsebool}
+ Contract GCXO…O5QF created temporary data 5215802543276885147nonce = ()
+ Time-to-live extended to ledger 203007 for GCXO…O5QF contract state entry 3ba292…142b19
+ Time-to-live extended to ledger 720688 for CAN2…RTVR contract state entry fbddfb…4bc03a
+Entries read: 6
+Entries write: 3
+Ledger read: 412B
+Ledger write: 424B
+Key read: 172B
+Key write: 0B
+Data read: 412B
+Data write: 424B
+Code read: 0B
+Code write: 0B
+Emitted events: 1 (248B)
+Instructions: 742,787
+Memory usage: 104,991B
+Invoke time: 220µs
+Fees: 116,107 refundable, 77,838 non-refundable, 113,685 rent
+	2025-08-26 10:43:03 UTC
+GDJH…SL33 invoked contract CAN2…RTVR USDCXMGAZK…G2MN transfer(GCXO…O5QF, CDRG…SGCY, 1000i128)
+ Invoked contract CAN2…RTVR USDCXMGAZK…G2MN transfer(GCXO…O5QF, CDRG…SGCY, 1000i128)
+ 0.0001 USDCXMGAZK…G2MN credited to contract CDRG…SGCY
+ Contract CAN2…RTVR raised event ["transfer"sym, GCXO…O5QF, CDRG…SGCY, "USDCXM:GAZKBG4Q7JCKTY5K5Q42SSUW6F3O6OE2SLP7PYRVW4NYSEPIUMV5G2MN"str] with data 1000i128
+ 0.0001 USDCXMGAZK…G2MN debited from account GCXO…O5QF
+ Contract CAN2…RTVR created persistent data ["Balance"sym, CDRG…SGCY] = {"amount"sym: 1000i128, "authorized"sym: truebool, "clawback"sym: falsebool}
+ Contract GCXO…O5QF created temporary data 8464387812346062099nonce = ()
+ Time-to-live extended to ledger 202956 for GCXO…O5QF contract state entry 1b131a…1e9637
+ Time-to-live extended to ledger 720637 for CAN2…RTVR contract state entry e46b2f…513d2b
+Entries read: 6
+Entries write: 3
+Ledger read: 412B
+Ledger write: 424B
+Key read: 172B
+Key write: 0B
+Data read: 412B
+Data write: 424B
+Code read: 0B
+Code write: 0B
+Emitted events: 1 (248B)
+Instructions: 742,787
+Memory usage: 104,991B
+Invoke time: 179µs
+Fees: 116,107 refundable, 77,838 non-refundable, 113,685 rent
+	2025-08-26 10:38:47 UTC
+GDJH…SL33 invoked contract CDO7…TTZY deploy_idempotent(GBZV…JV2R, {"constructor_args"sym: [[["Ed25519"sym, {"public_key"sym: zM++AYqHgiCrrdRm6sWQRayGSbPKGsD59e4BUi8QhNU=bytes}, ["Admin"sym]]], []], "salt"sym: nrPbNN0M4GK9QO32XXrvjF3PJ35oiyQcd8AY/hmiHjc=bytes, "wasm_hash"sym: wXYxaCK1gylJi2LZdV4f2wbf2SloHI0KYfgcKwGpsOE=bytes})
+ Invoked contract CDO7…TTZY deploy_idempotent(GBZV…JV2R, {"constructor_args"sym: [[["Ed25519"sym, {"public_key"sym: zM++AYqHgiCrrdRm6sWQRayGSbPKGsD59e4BUi8QhNU=bytes}, ["Admin"sym]]], []], "salt"sym: nrPbNN0M4GK9QO32XXrvjF3PJ35oiyQcd8AY/hmiHjc=bytes, "wasm_hash"sym: wXYxaCK1gylJi2LZdV4f2wbf2SloHI0KYfgcKwGpsOE=bytes})
+ Invoked contract CB5U…HUNL is_deployed(()) → CB5U…HUNL
+ Invoked contract CB5U…HUNL __constructor([["Ed25519"sym, {"public_key"sym: zM++AYqHgiCrrdRm6sWQRayGSbPKGsD59e4BUi8QhNU=bytes}, ["Admin"sym]]], [])
+ Contract CB5U…HUNL created from WASM c1763168…01a9b0e1
+ Execution error scecMissingValue in CDO7…TTZY: "trying to get non-existing value for contract instance"
+ Execution error scecMissingValue in CDO7…TTZY: ["contract try_call failed","is_deployed",[]]
+ Contract CB5U…HUNL raised event ["storage"sym, "store"sym] with data {"operation"sym: ["Store"sym], "storage_type"sym: ["Persistent"sym]}
+ Contract CB5U…HUNL raised event ["storage"sym, "store"sym] with data {"operation"sym: ["Store"sym], "storage_type"sym: ["Persistent"sym]}
+ Contract CB5U…HUNL raised event ["storage"sym, "update"sym] with data {"operation"sym: ["Update"sym], "storage_type"sym: ["Persistent"sym]}
+ Contract CB5U…HUNL raised event ["signer"sym, "added"sym] with data {"signer"sym: ["Ed25519"sym, {"public_key"sym: zM++AYqHgiCrrdRm6sWQRayGSbPKGsD59e4BUi8QhNU=bytes}, ["Admin"sym]], "signer_key"sym: ["Ed25519"sym, zM++AYqHgiCrrdRm6sWQRayGSbPKGsD59e4BUi8QhNU=bytes]}
+ Contract CB5U…HUNL raised event ["storage"sym, "store"sym] with data {"operation"sym: ["Store"sym], "storage_type"sym: ["Instance"sym]}
+ Contract CB5U…HUNL raised event ["INITIALIZED"sym] with data CB5U…HUNL
+ Contract CDO7…TTZY raised event ["DEPLOYED"sym] with data [{"contract_id"sym: CB5U…HUNL}]
+ Contract CB5U…HUNL created instance data <LedgerKeyContractInstance> = c176316822b58329498b62d9755e1fdb06dfd929681c8d0a61f81c2b01a9b0e1wasm
+ Contract CB5U…HUNL created instance data "INIT"sym = truebool
+ Contract CB5U…HUNL created instance data "plugins"sym = {}
+ Contract CB5U…HUNL created persistent data ["Ed25519"sym, zM++AYqHgiCrrdRm6sWQRayGSbPKGsD59e4BUi8QhNU=bytes] = ["Ed25519"sym, {"public_key"sym: zM++AYqHgiCrrdRm6sWQRayGSbPKGsD59e4BUi8QhNU=bytes}, ["Admin"sym]]
+ Contract CB5U…HUNL created persistent data "admin_cnt"sym = 1u32
+ Contract GBZV…JV2R created temporary data 7228402369153515271nonce = ()
+ Time-to-live extended to ledger 202758 for GBZV…JV2R contract state entry 85fb2c…669103
+ Time-to-live extended to ledger 322998 for CB5U…HUNL contract state entry 77fb91…362c31
+ Time-to-live extended to ledger 322998 for CB5U…HUNL contract state entry 08eae0…d60b87
+ Time-to-live extended to ledger 322998 for CB5U…HUNL contract state entry 4c8525…57a658
+Entries read: 9
+Entries write: 4
+Ledger read: 92B
+Ledger write: 568B
+Key read: 40B
+Key write: 0B
+Data read: 92B
+Data write: 568B
+Code read: 0B
+Code write: 0B
+Emitted events: 7 (1,412B)
+Instructions: 3,536,015
+Memory usage: 4,683,706B
+Invoke time: 417µs
+Fees: 102,303 refundable, 96,213 non-refundable, 88,513 rent
+	2025-08-26 10:22:16 UTC
+GDJH…SL33 invoked contract CDO7…TTZY deploy_idempotent(GBZV…JV2R, {"constructor_args"sym: [[["Ed25519"sym, {"public_key"sym: k7aaX6o15f8EkfmZlsdrzhvM8yFM9JLus8YRAv7N97g=bytes}, ["Admin"sym]]], []], "salt"sym: La3YJkVniC7VLUmjeVS4JlNQio9wo2d5pfPOPaB+2kk=bytes, "wasm_hash"sym: wXYxaCK1gylJi2LZdV4f2wbf2SloHI0KYfgcKwGpsOE=bytes})
+ Invoked contract CDO7…TTZY deploy_idempotent(GBZV…JV2R, {"constructor_args"sym: [[["Ed25519"sym, {"public_key"sym: k7aaX6o15f8EkfmZlsdrzhvM8yFM9JLus8YRAv7N97g=bytes}, ["Admin"sym]]], []], "salt"sym: La3YJkVniC7VLUmjeVS4JlNQio9wo2d5pfPOPaB+2kk=bytes, "wasm_hash"sym: wXYxaCK1gylJi2LZdV4f2wbf2SloHI0KYfgcKwGpsOE=bytes})
+ Invoked contract CCSS…3HR3 is_deployed(()) → CCSS…3HR3
+ Invoked contract CCSS…3HR3 __constructor([["Ed25519"sym, {"public_key"sym: k7aaX6o15f8EkfmZlsdrzhvM8yFM9JLus8YRAv7N97g=bytes}, ["Admin"sym]]], [])
+ Contract CCSS…3HR3 created from WASM c1763168…01a9b0e1
+ Execution error scecMissingValue in CDO7…TTZY: "trying to get non-existing value for contract instance"
+ Execution error scecMissingValue in CDO7…TTZY: ["contract try_call failed","is_deployed",[]]
+ Contract CCSS…3HR3 raised event ["storage"sym, "store"sym] with data {"operation"sym: ["Store"sym], "storage_type"sym: ["Persistent"sym]}
+ Contract CCSS…3HR3 raised event ["storage"sym, "store"sym] with data {"operation"sym: ["Store"sym], "storage_type"sym: ["Persistent"sym]}
+ Contract CCSS…3HR3 raised event ["storage"sym, "update"sym] with data {"operation"sym: ["Update"sym], "storage_type"sym: ["Persistent"sym]}
+ Contract CCSS…3HR3 raised event ["signer"sym, "added"sym] with data {"signer"sym: ["Ed25519"sym, {"public_key"sym: k7aaX6o15f8EkfmZlsdrzhvM8yFM9JLus8YRAv7N97g=bytes}, ["Admin"sym]], "signer_key"sym: ["Ed25519"sym, k7aaX6o15f8EkfmZlsdrzhvM8yFM9JLus8YRAv7N97g=bytes]}
+ Contract CCSS…3HR3 raised event ["storage"sym, "store"sym] with data {"operation"sym: ["Store"sym], "storage_type"sym: ["Instance"sym]}
+ Contract CCSS…3HR3 raised event ["INITIALIZED"sym] with data CCSS…3HR3
+ Contract CDO7…TTZY raised event ["DEPLOYED"sym] with data [{"contract_id"sym: CCSS…3HR3}]
+ Contract CCSS…3HR3 created instance data <LedgerKeyContractInstance> = c176316822b58329498b62d9755e1fdb06dfd929681c8d0a61f81c2b01a9b0e1wasm
+ Contract CCSS…3HR3 created instance data "INIT"sym = truebool
+ Contract CCSS…3HR3 created instance data "plugins"sym = {}
+ Contract CCSS…3HR3 created persistent data ["Ed25519"sym, k7aaX6o15f8EkfmZlsdrzhvM8yFM9JLus8YRAv7N97g=bytes] = ["Ed25519"sym, {"public_key"sym: k7aaX6o15f8EkfmZlsdrzhvM8yFM9JLus8YRAv7N97g=bytes}, ["Admin"sym]]
+ Contract CCSS…3HR3 created persistent data "admin_cnt"sym = 1u32
+ Contract GBZV…JV2R created temporary data 7578223466490058648nonce = ()
+ Time-to-live extended to ledger 318432 for CCSS…3HR3 contract state entry d44cab…530b9c
+ Time-to-live extended to ledger 198192 for GBZV…JV2R contract state entry 17bc84…c5916b
+ Time-to-live extended to ledger 318432 for CCSS…3HR3 contract state entry 5cae27…7ce340
+ Time-to-live extended to ledger 318432 for CCSS…3HR3 contract state entry 57beb1…254126
+Entries read: 9
+Entries write: 4
+Ledger read: 92B
+Ledger write: 568B
+Key read: 40B
+Key write: 0B
+Data read: 92B
+Data write: 568B
+Code read: 0B
+Code write: 0B
+Emitted events: 7 (1,412B)
+Instructions: 3,536,015
+Memory usage: 4,683,706B
+Invoke time: 565µs
+Fees: 102,303 refundable, 96,213 non-refundable, 88,513 rent
+	2025-08-26 04:01:25 UTC
+GDJH…SL33 invoked contract CAN2…RTVR USDCXMGAZK…G2MN transfer(GCXO…O5QF, CCSS…3HR3, 1000i128)
+ Invoked contract CAN2…RTVR USDCXMGAZK…G2MN transfer(GCXO…O5QF, CCSS…3HR3, 1000i128)
+ 0.0001 USDCXMGAZK…G2MN credited to contract CCSS…3HR3
+ Contract CAN2…RTVR raised event ["transfer"sym, GCXO…O5QF, CCSS…3HR3, "USDCXM:GAZKBG4Q7JCKTY5K5Q42SSUW6F3O6OE2SLP7PYRVW4NYSEPIUMV5G2MN"str] with data 1000i128
+ 0.0001 USDCXMGAZK…G2MN debited from account GCXO…O5QF
+ Contract CAN2…RTVR created persistent data ["Balance"sym, CCSS…3HR3] = {"amount"sym: 1000i128, "authorized"sym: truebool, "clawback"sym: falsebool}
+ Contract GCXO…O5QF created temporary data 1648857609161574991nonce = ()
+ Time-to-live extended to ledger 198189 for GCXO…O5QF contract state entry d7065a…436ac9
+ Time-to-live extended to ledger 715870 for CAN2…RTVR contract state entry e89382…dfb9af
+Entries read: 6
+Entries write: 3
+Ledger read: 412B
+Ledger write: 424B
+Key read: 172B
+Key write: 0B
+Data read: 412B
+Data write: 424B
+Code read: 0B
+Code write: 0B
+Emitted events: 1 (248B)
+Instructions: 742,787
+Memory usage: 104,991B
+Invoke time: 209µs
+Fees: 116,107 refundable, 77,838 non-refundable, 113,685 rent
+	2025-08-26 04:01:10 UTC
+GDJH…SL33 invoked contract CAN2…RTVR transfer(CC5X…GEQS, CC5X…GEQS, 1000i128)
+ Invoked contract CAN2…RTVR transfer(CC5X…GEQS, CC5X…GEQS, 1000i128)
+ Invoked contract CC5X…GEQS __check_auth(aWzMVQ9XP17VvmFkEfSTpITIEv4Rc5Ecx2UkEqqO3Y0=bytes, [{["Ed25519"sym, ZnrRGcDPY/orhGXk6hBI4LDYcCGuXLNbgxVD1buFipk=bytes]: ["Ed25519"sym, Hr0wEYUb9pGopoEKIlaN4qerFOhn+2mZgRHU2N/GG6O…w0kNwwk8d2ZIFseVGJM1cQ8J/doRJRO2JqO+VblCA==bytes]}], [["Contract"sym, {"args"sym: [CC5X…GEQS, CC5X…GEQS, 1000i128], "contract"sym: CAN2…RTVR, "fn_name"sym: "transfer"sym}]])
+ Contract CAN2…RTVR raised event ["transfer"sym, CC5X…GEQS, CC5X…GEQS, "USDCXM:GAZKBG4Q7JCKTY5K5Q42SSUW6F3O6OE2SLP7PYRVW4NYSEPIUMV5G2MN"str] with data 1000i128
+ Contract CC5X…GEQS created temporary data 900854520019236168nonce = ()
+ Time-to-live extended to ledger 198425 for CC5X…GEQS contract state entry 821378…9942cd
+Entries read: 6
+Entries write: 2
+Ledger read: 0B
+Ledger write: 296B
+Key read: 0B
+Key write: 0B
+Data read: 0B
+Data write: 296B
+Code read: 0B
+Code write: 0B
+Emitted events: 1 (244B)
+Instructions: 2,341,542
+Memory usage: 1,798,207B
+Invoke time: 431µs
+Fees: 12,577 refundable, 52,889 non-refundable, 10,194 rent
